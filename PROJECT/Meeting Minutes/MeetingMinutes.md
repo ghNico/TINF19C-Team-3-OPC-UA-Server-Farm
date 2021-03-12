@@ -26,6 +26,8 @@
 
 [Meeting 17.03.2021]
 
+
+
 # Meeting 14.10.2020
 | **Verfasser** | Niklas Huber |
 | --- | --- |
@@ -41,14 +43,19 @@
 - Niklas soll der CRS-„Experte&quot; sein
 
 **Status der Arbeit**: Informieren über das Thema
+
 **Probleme**: keine
+
 **Beschlüsse**: 
 - Über CRS, SRS, BC und UPC informieren
 - Teamschannel für UPC Informationen einrichten
 - Alle relevanten Dateien in Teams hochladen
 
 **Nächster vereinbarter Termin**: 16.10.2020
+
 **Dauer**: Ca. 20 min 
+
+
 
 # Meeting 16.10.2020
 | **Verfasser** | Niklas Huber |
@@ -62,7 +69,9 @@
 - Weiteres Vorgehen planen (siehe Beschlüsse)
 
 **Status der Arbeit**: Informieren über das Thema
+
 **Probleme**: keine
+
 **Beschlüsse**: 
 - Goal in CRS einfügen
 - Kay: Netzwerk multi IP Sache einlesen
@@ -73,7 +82,10 @@
 - Daniel: OPC UA Client UA-Expert einlesen
 
 **Nächster vereinbarter Termin**: 19.10.2020
+
 **Dauer**: 1 Std
+
+
 
 # Meeting 19.10.2020
 | **Verfasser** | Niklas Huber |
@@ -90,6 +102,7 @@
 - Test Client
 
 **Status der Arbeit**: CRS erstellen
+
 **Probleme**:
 - Projekt Ziel, Grund der Entwicklung und Zielgruppe unklar
 - Mehrere IP-Adressen fraglich
@@ -101,7 +114,10 @@
 - Nico: Files nach GIT umziehen
 
 **Nächster vereinbarter Termin**: 23.10.2020
+
 **Dauer**: 45 min
+
+
 
 # Meeting 23.10.2020
 | **Verfasser** | Niklas Huber |
@@ -115,14 +131,19 @@
 - Review zum BC
 
 **Status der Arbeit**: CRS erstellen
+
 **Probleme**: Aktuell unbekanntes Abgabedatum für Dokumentation
+
 **Beschlüsse**: 
 - Jeder: Risiken fürs Projekt überlegen
 - Niklas: CRS weitermachen
 - Kay: Weiter in einarbeiten
 
 **Nächster vereinbarter Termin**: 30.10.2020
+
 **Dauer**: 1 Std
+
+
 
 # Meeting 30.10.2020
 | **Verfasser** | Niklas Huber |
@@ -149,13 +170,18 @@
 - Call mit Dozenten, um Fragen zu stellen
 
 **Status der Arbeit**: Erstellen der Dokumente
-**Probleme**:
+
+**Probleme**: keine
+
 **Beschlüsse**: 
 - Jeder schreibt seinen Teil ins Wiki
 - Phillipp probiert sich mal am SAS
 
 **Nächster vereinbarter Termin**: 03.11.2020
+
 **Dauer**: 1,5 Std
+
+
 
 # Meeting 03.11.2020
 | **Verfasser** | Niklas Huber |
@@ -179,14 +205,19 @@
         - Müssen auf unterschiedlichen Ports arbeiten
 
 **Status der Arbeit**: Erstellen der Dokumente
+
 **Probleme**: Wie sollen wir Teile des SAS schon vor implementierung machen?
+
 **Beschlüsse**: 
 - Fragen: Muss im jetzigen Semester jedes Teammitglied ein Dokument haben?
 - CRS, SRS, SAS weiter ausarbeiten
 - Daniel fängt mit Präsentation an
 
 **Nächster vereinbarter Termin**: 06.11.2020
+
 **Dauer**: 1,5 Std
+
+
 
 # Meeting 06.11.2020
 | **Verfasser** | Niklas Huber |
@@ -203,13 +234,18 @@
     - SRS und SAS in Wiki aufnehmen
 
 **Status der Arbeit**: Erstellung/Überarbeitung der Dokumente
+
 **Probleme**:
+
 **Beschlüsse**: 
 - Bis nächstes Meeting: Dokumente fertig
 - Dann mit Präsentation beginnen
 
-**Nächster vereinbarter Termin**: 09.11.2020 
+**Nächster vereinbarter Termin**: 09.11.2020
+
 **Dauer**: 1 Std
+
+
 
 # Meeting 09.11.2020
 | **Verfasser** | Niklas Huber |
@@ -224,13 +260,18 @@
 
 
 **Status der Arbeit**: Dokumentation abgeschlossen
+
 **Probleme**:
+
 **Beschlüsse**: 
 - Jeder macht seinen Präsentationsteil
 - Nico: SRS und SAS in Git Wiki
 
 **Nächster vereinbarter Termin**: 11.11.2020
+
 **Dauer**: 1,5 Std
+
+
 
 # Meeting 11.11.2020
 | **Verfasser** | Niklas Huber |
@@ -243,10 +284,16 @@
 - Review zum SRS und SAS in Git Wiki
 
 **Status der Arbeit**: Vorbereitung auf Präsentation
+
 **Probleme**:
+
 **Beschlüsse**: 
+
 **Nächster vereinbarter Termin**: 12.11.2020
+
 **Dauer**: 1 Std
+
+
 
 # Meeting 12.11.2020
 | **Verfasser** | Niklas Huber |
@@ -258,9 +305,13 @@
 - Nochmaliges Review zur Präsentation
 
 **Status der Arbeit**: Vorbereitung auf Präsentation
+
 **Probleme**:
+
 **Beschlüsse**: SRS und SAS in Git Wiki
+
 **Nächster vereinbarter Termin**: Präsentation in Vorlesung
+
 **Dauer**: 1 Std
 
 # Meeting 05.03.2021
@@ -279,6 +330,7 @@
     - Phillip wird zum Product Manager „befördert“
 
 **Status der Arbeit**: Alle wieder auf aktuellen Stand bringen
+
 **Probleme**: 
 - Hauptentwickler hat Projektgruppe verlassen
 - Versionsprobleme
@@ -287,9 +339,11 @@
 - Jeder liest alle bisherige Doku durch
 - Jeder installiert WSL 2 / Linux
 
-
 **Nächster vereinbarter Termin**: 12.03.2021
+
 **Dauer**: 45 min
+
+
 
 # Meeting 12.03.2021
 | **Verfasser** | Niklas Huber |
@@ -300,7 +354,9 @@
 **Themen:** Weiteres Vorgehen (siehe Beschlüsse) / Nachbesprechung der 1. Vorlesung im 4. Semester
 
 **Status der Arbeit**: Alle wieder auf aktuellen Stand bringen
+
 **Probleme**:
+
 **Beschlüsse**: 
 - Niklas:
     - Git den Anforderungen des Dozenten anpassen
@@ -313,7 +369,10 @@
 - Projekt in aktueller Version (Alte Version verwerfen)
 
 **Nächster vereinbarter Termin**:  17.03.2021
+
 **Dauer**: 30 min
+
+
 
 # Meeting 17.03.2021
 | **Verfasser** | Niklas Huber |
@@ -325,7 +384,11 @@
 - a
 
 **Status der Arbeit**:
+
 **Probleme**:
+
 **Beschlüsse**: 
+
 **Nächster vereinbarter Termin**:
+
 **Dauer**:
