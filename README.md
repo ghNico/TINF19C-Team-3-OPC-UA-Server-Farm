@@ -1,7 +1,7 @@
 # OPC_UA_Server_Farm
 
 
-![Project Logo](TINF19C-Team-3-OPC-UA-Server-Farm/PROJECT/Logo.PNG)
+![Project Logo](https://github.com/ghNico/TINF19C-Team-3-OPC-UA-Server-Farm/blob/master/PROJECT/Logo.PNG)
 
 Welcome to OPC_UA!
 
