@@ -1,5 +1,8 @@
 # OPC_UA_Server_Farm
 
+
+![Project Logo](/PROJECT/Logo.PNG)
+
 Welcome to OPC_UA!
 
 This project is developed as a student project by
