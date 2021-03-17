@@ -1,7 +1,8 @@
 # OPC_UA_Server_Farm
 
 
-![Project Logo](/PROJECT/Logo.PNG)
+[Project-Logo](/PROJECT/Logo.PNG)
+![Project Logo][Project-Logo]
 
 Welcome to OPC_UA!
 
