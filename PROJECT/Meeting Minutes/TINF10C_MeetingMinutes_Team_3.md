@@ -319,7 +319,7 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
-| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:**
 - Stand des Projekts
@@ -350,7 +350,7 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
-| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** Weiteres Vorgehen (siehe Beschlüsse) / Nachbesprechung der 1. Vorlesung im 4. Semester
 
@@ -379,7 +379,7 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
-| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
 - Call mit Dozenten für Support beim Projekt
@@ -408,7 +408,7 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
-| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
 - a
