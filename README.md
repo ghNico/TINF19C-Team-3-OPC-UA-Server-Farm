@@ -24,4 +24,3 @@ The goal of this project is to develop a server farm which supports the testing 
 
 Contributions are always welcome! If you want to contribute feel free to fork this repo and later perform a pull request.
 
-# tbc
