@@ -26,6 +26,8 @@
 
 [Meeting 17.03.2021](#meeting-13)
 
+[Meeting 19.03.2021](#meeting-14)
+
 
 # <a name="meeting-1"></a> Meeting 14.10.2020
 | **Verfasser** | Niklas Huber |
@@ -380,6 +382,35 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
+- Call mit Dozenten für Support beim Projekt
+- Review zu allen organisatorischen Punkten von Niclas
+    - GitHub
+    - Noten
+    - Präsentation
+- Review zum Anfang der Implementierung (Nico & Phillip)
+    - Wie sich jeder auf unseren Linux Server connected
+    - Problem: wir verstehen den Code nicht -> Call mit Dozenten
+- Review zu anpassungen auf GIT (Niklas)
+
+**Status der Arbeit**: Anfang der Implementierung
+
+**Probleme**: Probleme bei der Implementierung
+
+**Beschlüsse**: Niclas nimmt Kontakt zu Dozenten weger oben genannten Call auf
+
+**Nächster vereinbarter Termin**: 19.03.2021
+
+**Dauer**: 30 min
+
+
+
+# <a name="meeting-14"></a> Meeting 19.03.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Kay Knoepfle, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
 - a
 
 **Status der Arbeit**:
@@ -391,3 +422,4 @@
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
+
