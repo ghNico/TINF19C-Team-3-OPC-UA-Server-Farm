@@ -28,6 +28,8 @@
 
 [Meeting 19.03.2021](#meeting-14)
 
+[Meeting XX.03.2021](#meeting-15)
+
 
 # <a name="meeting-1"></a> Meeting 14.10.2020
 | **Verfasser** | Niklas Huber |
@@ -411,6 +413,29 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
+- Hilfestellung von Dozenten in Vorlesung
+    - AML File anstatt JSON (von Hilfestellung) Konfigurationsdatei -> AML anschauen
+    - Weitere Vorgehensweise (mithilfe der Hilfestellung) besprechen
+
+**Status der Arbeit**: Anfang der Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: Nico, Phillip probieren mit Hilfestellung zu Arbeiten; Daniel mit Testen beschäftigen
+
+**Nächster vereinbarter Termin**: 24.03 ODER 25.03
+
+**Dauer**: 30 min
+
+
+
+# <a name="meeting-15"></a> Meeting XX.03.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
 - a
 
 **Status der Arbeit**:
@@ -422,4 +447,3 @@
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
-
