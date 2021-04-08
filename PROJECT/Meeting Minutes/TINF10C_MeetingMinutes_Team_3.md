@@ -28,7 +28,9 @@
 
 [Meeting 19.03.2021](#meeting-14)
 
-[Meeting XX.03.2021](#meeting-15)
+[Meeting 01.04.2021](#meeting-15)
+
+[Meeting XX.04.2021](#meeting-16)
 
 
 # <a name="meeting-1"></a> Meeting 14.10.2020
@@ -423,13 +425,37 @@
 
 **Beschlüsse**: Nico, Phillip probieren mit Hilfestellung zu Arbeiten; Daniel mit Testen beschäftigen
 
-**Nächster vereinbarter Termin**: 24.03 ODER 25.03
+**Nächster vereinbarter Termin**: 01.04.2021
 
 **Dauer**: 30 min
 
 
 
-# <a name="meeting-15"></a> Meeting XX.03.2021
+# <a name="meeting-15"></a> Meeting 01.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- Alle auf gleichen Stand bringen
+    - Hilfestellung grob verstanden
+    - Unklare Aufgabe und Ziel des Projekts (vorallem bezüglich der 10 unterschiedlichen Server Profile)
+      
+
+**Status der Arbeit**: Anfang der Implementierung
+
+**Probleme**: Unklares Ziel des Projekts
+
+**Beschlüsse**: Niclas vereinbart treffen mit Dozenten
+
+**Nächster vereinbarter Termin**: 09.04.2021
+
+**Dauer**: 45 min 
+
+
+
+# <a name="meeting-16"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
