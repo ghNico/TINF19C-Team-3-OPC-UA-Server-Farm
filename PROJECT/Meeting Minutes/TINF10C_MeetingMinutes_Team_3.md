@@ -30,7 +30,11 @@
 
 [Meeting 01.04.2021](#meeting-15)
 
-[Meeting XX.04.2021](#meeting-16)
+[Meeting 16.04.2021](#meeting-16)
+
+[Meeting 18.04.2021](#meeting-17)
+
+[Meeting XX.04.2021](#meeting-18)
 
 
 # <a name="meeting-1"></a> Meeting 14.10.2020
@@ -455,7 +459,64 @@
 
 
 
-# <a name="meeting-16"></a> Meeting XX.04.2021
+# <a name="meeting-16"></a> Meeting 16.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- Weiteres Vorgehen besprochen:
+  - Konfiguaration von Attributen (Temperatur. Gerätename, ...)
+    - In Github wiki
+- Noch zu machen (Start der Entwicklung)
+  - User Inferface (Console)
+  - Logger
+  - Server host
+  - Parser
+  - OPC UA client (bereits vorhanden)
+
+- Schwierigkeiten:
+  - "Vorgaukeln" von 10 Servern 
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: 
+- "richtiger" Start implementierung
+- Nico und Phillip machen Core Library
+- Niclas macht Logger
+- Niklas schaut wie man AML Dateien parsen/einlesen
+- Daniel fängt mit Testfällen an (also unterschiedliche AML Dateien)
+
+**Nächster vereinbarter Termin**: 18.04.2021 15 Uhr
+
+**Dauer**: 45 min
+
+
+
+# <a name="meeting-17"></a> Meeting 18.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- a
+
+**Status der Arbeit**:
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**:
+
+**Dauer**:
+
+
+# <a name="meeting-18"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
