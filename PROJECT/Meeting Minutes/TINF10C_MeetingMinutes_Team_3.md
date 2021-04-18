@@ -36,6 +36,9 @@
 
 [Meeting XX.04.2021](#meeting-18)
 
+[Meeting XX.04.2021](#meeting-19)
+
+
 
 # <a name="meeting-1"></a> Meeting 14.10.2020
 | **Verfasser** | Niklas Huber |
@@ -500,10 +503,37 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster |
+
+**Themen:** 
+- Besprechung der Updates
+  - 10 simulierte Server funktioneren
+  - File einlesen ist noch zu machen
+  - Überlegung zur Umsetzung des UI
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: 
+- Eventuell GUI
+- Mit XML-Parser anfangen
+- Schreiben des Loggers
+- Test AML Files bauen
+
+**Nächster vereinbarter Termin**: 24.04.2021 13 Uhr
+
+**Dauer**: 15 Uhr
+
+
+# <a name="meeting-18"></a> Meeting 24.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- a
+- Parser
 
 **Status der Arbeit**:
 
@@ -516,7 +546,8 @@
 **Dauer**:
 
 
-# <a name="meeting-18"></a> Meeting XX.04.2021
+
+# <a name="meeting-19"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
@@ -534,3 +565,4 @@
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
+
