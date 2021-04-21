@@ -34,9 +34,10 @@
 
 [Meeting 18.04.2021](#meeting-17)
 
-[Meeting XX.04.2021](#meeting-18)
+[Meeting 21.04.2021](#meeting-18)
 
 [Meeting XX.04.2021](#meeting-19)
+
 
 
 
@@ -521,29 +522,35 @@
 - Schreiben des Loggers
 - Test AML Files bauen
 
-**Nächster vereinbarter Termin**: 24.04.2021 13 Uhr
+**Nächster vereinbarter Termin**: 21.04.2021 13 Uhr
 
-**Dauer**: 15 Uhr
+**Dauer**: 30 min
 
 
-# <a name="meeting-18"></a> Meeting 24.04.2021
+# <a name="meeting-18"></a> Meeting 21.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- Parser
+- Parser:
+  - Welche Daten von AML Datei auslesen -> Lassen gesamte XML File parsen
+  - Get Methode damit Server geparste Daten bekommt   
+- Logger:
+  - Review zu bisheriger Arbeit
 
-**Status der Arbeit**:
+**Status der Arbeit**: Implementierung
 
 **Probleme**:
 
 **Beschlüsse**: 
+- Weiterarbeiten an Parser und Logger
+- Weitere AML Dateien erstellen
 
-**Nächster vereinbarter Termin**:
+**Nächster vereinbarter Termin**: 22.04.2021 14 Uhr
 
-**Dauer**:
+**Dauer**: 45 min
 
 
 
@@ -565,4 +572,6 @@
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
+
+
 
