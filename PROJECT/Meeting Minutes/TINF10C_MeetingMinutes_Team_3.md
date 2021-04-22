@@ -36,7 +36,12 @@
 
 [Meeting 21.04.2021](#meeting-18)
 
-[Meeting XX.04.2021](#meeting-19)
+[Meeting 22.04.2021](#meeting-19)
+
+[Meeting 23.04.2021](#meeting-20)
+
+[Meeting XX.04.2021](#meeting-21)
+
 
 
 
@@ -554,7 +559,56 @@
 
 
 
-# <a name="meeting-19"></a> Meeting XX.04.2021
+# <a name="meeting-19"></a> Meeting 22.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- Review zum Parser:
+  - Parser selbst
+  - Überblicksdatei für Klassen in Parser
+- Keine richtige Präsentation am Freitag
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**: 
+
+**Beschlüsse**: 
+- Parser integrieren -> Attribute in Server darstellen
+- Weiterhin AML File erstellen
+
+**Nächster vereinbarter Termin**: 23.04.2021 nach Vorlesung
+
+**Dauer**: 30 min
+
+
+
+# <a name="meeting-20"></a> Meeting 23.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- a
+
+**Status der Arbeit**:
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**:
+
+**Dauer**:
+
+
+
+
+
+# <a name="meeting-21"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
