@@ -44,9 +44,9 @@ vector<source_object_information> get_source_object_information(const pugi::xml_
 	return information;
 }
 
-header get_header(pugi::xml_node node)
+header_struct get_header(const pugi::xml_node node)
 {
-	return header{
+	return header_struct{
 		node.select_node("Description").node().text().get(),
 		node.select_node("Copyright").node().text().get(),
 		get_additional_information(node),
@@ -54,8 +54,8 @@ header get_header(pugi::xml_node node)
 		node.attribute("ChangeMode").value(),
 		node.select_node("Version").node().text().get(),
 		get_revisions(node),
-		node.select_node("Name").node().text().get(),
-		node.select_node("Id").node().text().get(),
+		node.attribute("Name").value(),
+		node.attribute("ID").value()
 	};
 }
 
@@ -115,9 +115,9 @@ vector<attribute> get_attributes(const pugi::xml_node node)
 	return attributes;
 }
 
-ref_semantic get_ref_semantic(const pugi::xml_node node)
+ref_semantic_struct get_ref_semantic(const pugi::xml_node node)
 {
-	return ref_semantic{ node.select_node("RefSemantic").node().attribute("CorrespondingAttributePath").value() };
+	return ref_semantic_struct{ node.select_node("RefSemantic").node().attribute("CorrespondingAttributePath").value() };
 }
 
 vector<attribute_type> get_attribute_types(const pugi::xml_node node)
@@ -230,9 +230,9 @@ vector<system_unit_class> get_system_unit_classes(const pugi::xml_node node)
 	return system_unit_classes;
 }
 
-source_document_information get_source_document_information(const pugi::xml_node node)
+source_document_information_struct get_source_document_information(const pugi::xml_node node)
 {
-	return source_document_information{
+	return source_document_information_struct{
 		node.attribute("OriginName").value(),
 		node.attribute("OriginID").value(),
 		node.attribute("OriginVersion").value(),
