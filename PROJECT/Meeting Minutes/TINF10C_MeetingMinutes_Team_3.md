@@ -40,8 +40,9 @@
 
 [Meeting 23.04.2021](#meeting-20)
 
-[Meeting XX.04.2021](#meeting-21)
+[Meeting 26.04.2021](#meeting-21)
 
+[Meeting XX.04.2021](#meeting-22)
 
 
 
@@ -592,6 +593,41 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
+- Besprechung des Kundeninterfaces
+  - Implementierung einer GUI
+  - Anpassen des BC / Strukturprojektplan wegen wegfallen von Kay (Stundenverteilung und co.)
+  - Unit Tests aus Anforderungen schreiben (auch aus Gantt-chart)
+  - GitHub verbessern für Review in nächster Vorlesung am 30.04.
+- Weiters Vorgehen:
+  - Weiteres einbinden der AML Files in Server
+  - GUI entwickeln
+  - Weitere AML Files erstellen
+  - GitHub verbessern
+
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: 
+- Implementierung eines GUI
+- Wegfallen von Unit Tests (Begründung: Kay ist weggefallen)
+
+**Nächster vereinbarter Termin**: 26.04.2021 10:30 Uhr
+
+**Dauer**: 15 min
+
+
+
+
+
+# <a name="meeting-21"></a> Meeting 26.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
 - a
 
 **Status der Arbeit**:
@@ -606,9 +642,7 @@
 
 
 
-
-
-# <a name="meeting-21"></a> Meeting XX.04.2021
+# <a name="meeting-22"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
