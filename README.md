@@ -19,6 +19,8 @@ This Project is only distributed via [Github](https://github.com/ghNico/TINF19C-
 
 # About this Project
 
+If you want to learn more about it please visit oure Wiki!
+
 ## Goal of the Project
 
 The goal of this project is to develop a server farm which supports the testing of OPC UA clients. The server farm should provide multiple virtual OPC UA server via network. These virtual OPC UA server profiles should be parameterizable via an AutomationML configuration file (in CAEX 3.0).  In conclusion, the software should simulate multiple OPC UA servers on one computer for testing OPC UA clients. The target group are developer and tester of applications with OPC UA Client-Interface. The documentation of the software here on Git as well as the documentation of the development and project is also part of the goal.
