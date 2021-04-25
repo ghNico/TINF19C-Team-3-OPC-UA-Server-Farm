@@ -628,7 +628,9 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- a
+- Noch zu erstellende Dokumente
+   - STP - System Test Plan
+- In GitWiki: Noch ausführliche Beschreibung zu allen Modulen
 
 **Status der Arbeit**:
 
