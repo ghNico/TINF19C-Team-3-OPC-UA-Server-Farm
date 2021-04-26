@@ -630,17 +630,29 @@
 **Themen:** 
 - Noch zu erstellende Dokumente
    - STP - System Test Plan
-- In GitWiki: Noch ausführliche Beschreibung zu allen Modulen
+   - STR - System Test Report
+- In GitWiki: 
+    - Noch ausführliche Beschreibung zu allen Modulen
+    - User Manual
+- Erster Entwurf des GUI reviewed
+- Nur einlesen von AML Dateien keine AMLX
+- Nächste Schritte:
+   - Fehlerhandling (z.B.: Fehlerhafte AML Datei abfangen)
+   - GUI
+   - Dokumentation
+   - Nodes anzeigen (nur aus Instance Hierarchy)
+   - Mehrere Files laden
+   - Weitere AML-Files machen
 
-**Status der Arbeit**:
+**Status der Arbeit**: Implementierung
 
 **Probleme**:
 
-**Beschlüsse**: 
+**Beschlüsse**: Festlegung nächster Schritte
 
-**Nächster vereinbarter Termin**:
+**Nächster vereinbarter Termin**: 30.04.2021 nach Vorlesung
 
-**Dauer**:
+**Dauer**: 20 min
 
 
 
