@@ -42,7 +42,9 @@
 
 [Meeting 26.04.2021](#meeting-21)
 
-[Meeting XX.04.2021](#meeting-22)
+[Meeting 30.04.2021](#meeting-22)
+
+[Meeting XX.04.2021](#meeting-23)
 
 
 
@@ -656,7 +658,28 @@
 
 
 
-# <a name="meeting-22"></a> Meeting XX.04.2021
+# <a name="meeting-22"></a> Meeting 30.04.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- a
+
+**Status der Arbeit**:
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**:
+
+**Dauer**:
+
+
+
+# <a name="meeting-23"></a> Meeting XX.04.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
