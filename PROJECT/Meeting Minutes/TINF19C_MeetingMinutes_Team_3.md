@@ -44,7 +44,9 @@
 
 [Meeting 30.04.2021](#meeting-22)
 
-[Meeting XX.04.2021](#meeting-23)
+[Meeting 03.05.2021](#meeting-23)
+
+[Meeting XX.05.2021](#meeting-24)
 
 
 
@@ -662,6 +664,40 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Phillip Förster |
+
+**Themen:**
+- Nächste Schritte:
+   - Fehlerhandling (z.B.: Fehlerhafte AML Datei abfangen)
+   - GUI
+   - Dokumentation (Module und User Manual)
+   - Nodes anzeigen (nur aus Instance Hierarchy)
+   - Mehrere Files laden
+   - Weitere AML-Files machen
+   - Logger
+   - Präsentation
+
+**Status der Arbeit**: Implementierung + Anfang der Doku + Vorbereiten auf Präsentation
+
+**Probleme**:
+
+**Beschlüsse**: 
+- Niklas: Über finale Präsentation informieren
+- Niklas & Philipp: Parser Modul Doku
+- Philipp: Mehrere Files einlesen
+- Niclas: Gantt Chart anpassen für neuen Präsentationstermin
+- Niclas: GUI einarbeiten
+
+**Nächster vereinbarter Termin**: 03.05.2021 - 10.30 Uhr
+
+**Dauer**: 15 min
+
+
+
+# <a name="meeting-23"></a> Meeting 03.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
@@ -679,7 +715,7 @@
 
 
 
-# <a name="meeting-23"></a> Meeting XX.04.2021
+# <a name="meeting-24"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
