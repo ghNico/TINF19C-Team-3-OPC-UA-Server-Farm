@@ -46,7 +46,9 @@
 
 [Meeting 03.05.2021](#meeting-23)
 
-[Meeting XX.05.2021](#meeting-24)
+[Meeting 07.05.2021](#meeting-24)
+
+[Meeting XX.05.2021](#meeting-25)
 
 
 
@@ -698,6 +700,29 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster |
+
+**Themen:** 
+- Review zu Präsentationsentwurf und 
+- Festlegen der nächsten Schritte
+  - Phillip macht Logger
+  - Niclas macht GUI  
+**Status der Arbeit**: Implementation
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**: 07.05.2021 nach der Vorlesung
+
+**Dauer**: 15 min
+
+
+
+# <a name="meeting-24"></a> Meeting 07.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
@@ -715,14 +740,14 @@
 
 
 
-# <a name="meeting-24"></a> Meeting XX.05.2021
+# <a name="meeting-25"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- a
+- 
 
 **Status der Arbeit**:
 
