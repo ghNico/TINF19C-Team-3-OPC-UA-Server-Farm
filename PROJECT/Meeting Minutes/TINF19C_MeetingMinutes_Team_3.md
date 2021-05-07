@@ -726,7 +726,7 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- a
+- Parser: Wie kommuniziert er mit andern Modulen? UI und Logger direkt oder über Core Library???
 
 **Status der Arbeit**:
 
