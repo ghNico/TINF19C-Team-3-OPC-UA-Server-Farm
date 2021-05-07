@@ -48,7 +48,9 @@
 
 [Meeting 07.05.2021](#meeting-24)
 
-[Meeting XX.05.2021](#meeting-25)
+[Meeting 10.05.2021](#meeting-25)
+
+[Meeting XX.05.2021](#meeting-26)
 
 
 
@@ -726,7 +728,39 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- Parser: Wie kommuniziert er mit andern Modulen? UI und Logger direkt oder über Core Library???
+- GUI:
+    - Review zu bisheriger GUI
+    - Absprache für weiteres Vorgehen
+- Logging (was loggen):
+    - Server started
+    - Server shutdown
+    - Erfolgreiches Parsen
+    - Fehlgeschlagenes Parsen
+
+**Status der Arbeit**: Implementation
+
+**Probleme**:
+- Schwierigkeiten bei Implementierung von GUI
+
+**Beschlüsse**: 
+- bis nächsten Termin
+  - GUI weitermachen
+  - Server Logger Kommunikaion
+
+**Nächster vereinbarter Termin**: 10.05.2021 - 10.30 Uhr
+
+**Dauer**: 45 min
+
+
+
+# <a name="meeting-25"></a> Meeting 10.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- 
 
 **Status der Arbeit**:
 
@@ -740,7 +774,7 @@
 
 
 
-# <a name="meeting-25"></a> Meeting XX.05.2021
+# <a name="meeting-26"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
