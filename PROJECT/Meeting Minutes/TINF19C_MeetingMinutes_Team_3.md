@@ -760,7 +760,11 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- 
+- Fragen für Doku:
+  - Kommunikation zwischen den Modulen:
+    - Bekommt Parser file von Core Library oder direkt von UI?
+    - Was wählt die richtigen Properties für Server Start aus (Parser, Core Library oder Server Host)
+    - Kommunizieren Parser und Serverhost direkt mit Logger oder über Core Library  
 
 **Status der Arbeit**:
 
