@@ -757,17 +757,14 @@
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
-| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+| **Teilnehmer** | Niklas Huber, Nico Fischer, Daniel Zichler |
 
 **Themen:** 
-- Fragen für Doku:
-  - Kommunikation zwischen den Modulen:
-    - Bekommt Parser file von Core Library oder direkt von UI?
-    - Was wählt die richtigen Properties für Server Start aus (Parser, Core Library oder Server Host)
-    - Kommunizieren Parser und Serverhost direkt mit Logger oder über Core Library
-    - Parser macht File validation oder?  
+- Fragen zur Doku geklärt
+- Mini Review zur GUI
+- Evtl. Anpassungen an System Design in SAS
 
-**Status der Arbeit**:
+**Status der Arbeit**: Implementierung
 
 **Probleme**:
 
@@ -775,7 +772,7 @@
 
 **Nächster vereinbarter Termin**:
 
-**Dauer**:
+**Dauer**: 30 min
 
 
 
