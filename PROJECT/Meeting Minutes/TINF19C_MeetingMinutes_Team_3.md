@@ -799,7 +799,7 @@
 
 **Nächster vereinbarter Termin**: 14.05.2021 - nach der Vorlesung
 
-**Dauer**:
+**Dauer**: 2 Std 30 min
 
 
 
