@@ -8,7 +8,7 @@ Welcome to OPC_UA!
 This project is developed as a student project by
 
   1. Project Manager [Niclas Hörber](https://github.com/NiclasHoerber)
-  2. Product Manager [Kay Knöpfle](https://github.com/Joystick01) and [Philipp Förster](https://github.com/PhilippFoerster)
+  2. Product Manager ~~[Kay Knöpfle](https://github.com/Joystick01) and~~ [Philipp Förster](https://github.com/PhilippFoerster)
   3. System Architect [Nico Fischer](https://github.com/ghNico)
   4. Test Manager [Daniel Zichler](https://github.com/Clawset)
   5. Technical Editor [Niklas Huber](https://github.com/Detil12340)
