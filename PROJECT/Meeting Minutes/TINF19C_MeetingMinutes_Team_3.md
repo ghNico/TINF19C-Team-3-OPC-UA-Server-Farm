@@ -50,7 +50,9 @@
 
 [Meeting 10.05.2021](#meeting-25)
 
-[Meeting XX.05.2021](#meeting-26)
+[Meeting 12.05.2021](#meeting-26)
+
+[Meeting XX.05.2021](#meeting-27)
 
 
 
@@ -776,7 +778,29 @@
 
 
 
-# <a name="meeting-26"></a> Meeting XX.05.2021
+# <a name="meeting-26"></a> Meeting 12.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- Fragen zur Doku:
+  - Port von Server bei start auswählbar?
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**:
+
+**Dauer**:
+
+
+
+# <a name="meeting-27"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
