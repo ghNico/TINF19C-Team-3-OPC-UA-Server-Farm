@@ -787,6 +787,7 @@
 **Themen:** 
 - Fragen zur Doku:
   - Port von Server bei start auswählbar?
+  - System Architektur Bild anpassen
 
 **Status der Arbeit**: Implementierung
 
