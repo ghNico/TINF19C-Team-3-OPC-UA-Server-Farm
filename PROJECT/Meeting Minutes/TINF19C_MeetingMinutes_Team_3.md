@@ -52,6 +52,8 @@
 
 [Meeting 12.05.2021](#meeting-26)
 
+[Meeting 14.05.2021](#meeting-27)
+
 [Meeting XX.05.2021](#meeting-27)
 
 
@@ -772,7 +774,7 @@
 
 **Beschlüsse**: 
 
-**Nächster vereinbarter Termin**:
+**Nächster vereinbarter Termin**: 12.05.2021 - 19:30
 
 **Dauer**: 30 min
 
@@ -785,11 +787,32 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- Fragen zur Doku:
-  - Port von Server bei start auswählbar?
-  - System Architektur Bild anpassen
+- Review zur Parser Doku, um (fast) fertige Moduldoku für Projektreview zu haben
+- Kleine Fragen zur Doku geklärt
+- Verbindung von Server Host und User Interface
 
 **Status der Arbeit**: Implementierung
+
+**Probleme**:
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**: 14.05.2021 - nach der Vorlesung
+
+**Dauer**:
+
+
+
+# <a name="meeting-27"></a> Meeting 14.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- 
+
+**Status der Arbeit**:
 
 **Probleme**:
 
@@ -801,7 +824,7 @@
 
 
 
-# <a name="meeting-27"></a> Meeting XX.05.2021
+# <a name="meeting-28"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
