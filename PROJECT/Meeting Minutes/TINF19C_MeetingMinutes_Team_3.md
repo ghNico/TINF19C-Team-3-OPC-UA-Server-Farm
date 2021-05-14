@@ -54,7 +54,9 @@
 
 [Meeting 14.05.2021](#meeting-27)
 
-[Meeting XX.05.2021](#meeting-27)
+[Meeting 16.05.2021](#meeting-28)
+
+[Meeting XX.05.2021](#meeting-29)
 
 
 
@@ -822,13 +824,34 @@
 
 **Beschlüsse**: 
 
+**Nächster vereinbarter Termin**: 16.05.2021 - Abends
+
+**Dauer**: 1 Std
+
+
+
+# <a name="meeting-28"></a> Meeting 16.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- 
+
+**Status der Arbeit**:
+
+**Probleme**:
+
+**Beschlüsse**: 
+
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
 
 
 
-# <a name="meeting-28"></a> Meeting XX.05.2021
+# <a name="meeting-29"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
