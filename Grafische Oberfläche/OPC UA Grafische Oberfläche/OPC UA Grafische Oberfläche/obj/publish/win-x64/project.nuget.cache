@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ly81fT5BQppqTj8PXrSvV+E4VqdNXgRUnsm5cgYX2s2kiOCupMciKw1yWke0EwFE2+utm3wHQxG3P+SDwZTnvQ==",
+  "success": true,
+  "projectFilePath": "D:\\Niclas\\Documents\\Uni\\Software-Engineering\\GitHub\\TINF19C-Team-3-OPC-UA-Server-Farm\\Grafische Oberfläche\\OPC UA Grafische Oberfläche\\OPC UA Grafische Oberfläche\\OPC UA Grafische Oberfläche.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niclas\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.14\\microsoft.netcore.app.runtime.win-x64.3.1.14.nupkg.sha512",
+    "C:\\Users\\Niclas\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.14\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.14.nupkg.sha512",
+    "C:\\Users\\Niclas\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.14\\microsoft.aspnetcore.app.runtime.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

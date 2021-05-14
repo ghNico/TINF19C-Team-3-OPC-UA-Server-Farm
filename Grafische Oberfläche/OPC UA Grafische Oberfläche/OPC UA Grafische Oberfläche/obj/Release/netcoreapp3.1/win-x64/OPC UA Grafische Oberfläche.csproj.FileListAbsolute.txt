@@ -1,0 +1,5 @@
+D:\Niclas\Documents\Uni\Software-Engineering\GitHub\TINF19C-Team-3-OPC-UA-Server-Farm\Grafische Oberfläche\OPC UA Grafische Oberfläche\OPC UA Grafische Oberfläche\obj\Release\netcoreapp3.1\win-x64\OPC UA Grafische Oberfläche.csprojAssemblyReference.cache
+D:\Niclas\Documents\Uni\Software-Engineering\GitHub\TINF19C-Team-3-OPC-UA-Server-Farm\Grafische Oberfläche\OPC UA Grafische Oberfläche\OPC UA Grafische Oberfläche\obj\Release\netcoreapp3.1\win-x64\MainWindow.g.cs
+D:\Niclas\Documents\Uni\Software-Engineering\GitHub\TINF19C-Team-3-OPC-UA-Server-Farm\Grafische Oberfläche\OPC UA Grafische Oberfläche\OPC UA Grafische Oberfläche\obj\Release\netcoreapp3.1\win-x64\App.g.cs
+D:\Niclas\Documents\Uni\Software-Engineering\GitHub\TINF19C-Team-3-OPC-UA-Server-Farm\Grafische Oberfläche\OPC UA Grafische Oberfläche\OPC UA Grafische Oberfläche\obj\Release\netcoreapp3.1\win-x64\OPC UA Grafische Oberfläche_MarkupCompile.cache
+D:\Niclas\Documents\Uni\Software-Engineering\GitHub\TINF19C-Team-3-OPC-UA-Server-Farm\Grafische Oberfläche\OPC UA Grafische Oberfläche\OPC UA Grafische Oberfläche\obj\Release\netcoreapp3.1\win-x64\OPC UA Grafische Oberfläche_MarkupCompile.lref

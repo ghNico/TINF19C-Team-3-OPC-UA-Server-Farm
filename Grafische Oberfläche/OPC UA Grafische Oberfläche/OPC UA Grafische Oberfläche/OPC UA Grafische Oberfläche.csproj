@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>OPC_UA_Grafische_Oberfläche</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="delete.png" />
+    <None Remove="delete_icon.jpg" />
+    <None Remove="delete_transparent.png" />
+    <None Remove="Logo.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="delete.png" />
+    <Resource Include="delete_icon.jpg" />
+    <Resource Include="delete_transparent.png" />
+    <Resource Include="Logo.PNG" />
+  </ItemGroup>
+
+</Project>
