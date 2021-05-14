@@ -810,7 +810,7 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- 
+- Review zu Präsentation
 
 **Status der Arbeit**:
 
