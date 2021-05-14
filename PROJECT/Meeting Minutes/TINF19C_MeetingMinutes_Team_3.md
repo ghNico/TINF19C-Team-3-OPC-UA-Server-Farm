@@ -793,7 +793,7 @@
 
 **Status der Arbeit**: Implementierung
 
-**Probleme**:
+**Probleme**: GUI für Windows entwickelt, Serverimplementierung in Linux
 
 **Beschlüsse**: 
 
@@ -810,11 +810,15 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- Review zu Präsentation
+- Verbesserter Präsentationsentwurf
+- GUI für Windows entwickelt, Serverimplementierung in Linux
+  - Keine Lösung gefunden
+  - Implementieren doch Command Line UI
+  - Bisherige GUI geben wir als "GUI vorschlag" mit ab
 
-**Status der Arbeit**:
+**Status der Arbeit**: Implementierung
 
-**Probleme**:
+**Probleme**: GUI für Windows entwickelt, Serverimplementierung in Linux
 
 **Beschlüsse**: 
 
