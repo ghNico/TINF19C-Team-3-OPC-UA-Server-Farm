@@ -54,9 +54,11 @@
 
 [Meeting 14.05.2021](#meeting-27)
 
-[Meeting 16.05.2021](#meeting-28)
+[Meeting 17.05.2021](#meeting-28)
 
-[Meeting XX.05.2021](#meeting-29)
+[Meeting 19.05.2021](#meeting-29)
+
+[Meeting XX.05.2021](#meeting-30)
 
 
 
@@ -824,13 +826,43 @@
 
 **Beschlüsse**: 
 
-**Nächster vereinbarter Termin**: 16.05.2021 - Abends
+**Nächster vereinbarter Termin**: 17.05.2021 - 19:30
 
 **Dauer**: 1 Std
 
 
 
-# <a name="meeting-28"></a> Meeting 16.05.2021
+# <a name="meeting-28"></a> Meeting 17.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- Fehlende Doku
+- 10 aussagekräftige AML Dateien
+- Tests
+  - nicht implementierte GUI wird nicht getested 
+- Implementation, noch zu machen:
+  - Logger
+  - Fehlererkennung (z.b. fehlerhaftes AML file)
+  - Noch keine "values" anzeigen  
+
+**Status der Arbeit**: Ende der Implementation
+
+**Probleme**: Zeit
+
+**Beschlüsse**: 
+- bis Mittwoch aktiv an Project arbeiten
+- Was bis dahin nicht implementiert ist wird auch nicht mehr implementiert, da sonst Probleme mit der Doku und Testplan
+
+**Nächster vereinbarter Termin**: 19.05.2021 - 14 Uhr
+
+**Dauer**: 50 min
+
+
+
+# <a name="meeting-29"></a> Meeting 19.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
@@ -851,7 +883,7 @@
 
 
 
-# <a name="meeting-29"></a> Meeting XX.05.2021
+# <a name="meeting-30"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
@@ -869,6 +901,5 @@
 **Nächster vereinbarter Termin**:
 
 **Dauer**:
-
 
 
