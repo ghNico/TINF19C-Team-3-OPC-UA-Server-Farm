@@ -54,7 +54,9 @@
 
 [Meeting 14.05.2021](#meeting-27)
 
-[Meeting XX.05.2021](#meeting-27)
+[Meeting 16.05.2021](#meeting-28)
+
+[Meeting XX.05.2021](#meeting-29)
 
 
 
@@ -793,7 +795,7 @@
 
 **Status der Arbeit**: Implementierung
 
-**Probleme**:
+**Probleme**: GUI für Windows entwickelt, Serverimplementierung in Linux
 
 **Beschlüsse**: 
 
@@ -810,7 +812,32 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- Review zu Präsentation
+- Verbesserter Präsentationsentwurf
+- GUI für Windows entwickelt, Serverimplementierung in Linux
+  - Keine Lösung gefunden
+  - Implementieren doch Command Line UI
+  - Bisherige GUI geben wir als "GUI vorschlag" mit ab
+
+**Status der Arbeit**: Implementierung
+
+**Probleme**: GUI für Windows entwickelt, Serverimplementierung in Linux
+
+**Beschlüsse**: 
+
+**Nächster vereinbarter Termin**: 16.05.2021 - Abends
+
+**Dauer**: 1 Std
+
+
+
+# <a name="meeting-28"></a> Meeting 16.05.2021
+| **Verfasser** | Niklas Huber |
+| --- | --- |
+| **Team** | OPC UA Server Farm |
+| **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
+
+**Themen:** 
+- 
 
 **Status der Arbeit**:
 
@@ -824,7 +851,7 @@
 
 
 
-# <a name="meeting-28"></a> Meeting XX.05.2021
+# <a name="meeting-29"></a> Meeting XX.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
