@@ -33,6 +33,10 @@ namespace OPC_UA_Grafische_Oberfläche
         int errorline = new int();
         private readonly List<TextBox> files;
 
+        /// <summary>
+        /// Function which is called when the application starts.
+        /// Load all textBoxes into variable files; Updates the Textbox(updateVisualLst)
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -40,12 +44,14 @@ namespace OPC_UA_Grafische_Oberfläche
             updateVisualLst();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Console.WriteLine("pressed");
-        }
 
-        private void btnFile1_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Function which is called by the reset Button.
+        /// Set FileLst = null; Updates the Textbox(updateVisualLst); Logs that the File is deleted
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnResetFile_Click(object sender, RoutedEventArgs e)
         {
             for (int l = 0; l < 10; l++)
             {
@@ -57,7 +63,12 @@ namespace OPC_UA_Grafische_Oberfläche
             LogTxt.Text += Environment.NewLine + errorline + "  Imported Files were deleted " + Environment.NewLine;
         }
 
-
+        /// <summary>
+        /// Function which is called by the add Button.
+        /// openFileDialog -> path of selected file is writen into the List of all selected Files; Logging if it is failed or added; Updates TxtBoxes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AddFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -69,7 +80,8 @@ namespace OPC_UA_Grafische_Oberfläche
                 if (typ == ".aml")
                 {
                     FileLst[i] = path;
-                    LogTxt.Text += openFileDialog.FileName + " was added.....";
+                    errorline++;
+                    LogTxt.Text += errorline + "  " + openFileDialog.FileName + " was added.....";
                     LogTxt.Text += Environment.NewLine;
                     i++;
                     MessageTxt.Text = "";
@@ -91,7 +103,9 @@ namespace OPC_UA_Grafische_Oberfläche
             updateVisualLst();
         }
 
-
+        /// <summary>
+        /// Updates all TextBoxes with the FileName which is selected (if an file is selected with the same index as the TextBox).
+        /// </summary>
         private void updateVisualLst()
         {
             Image myImage3 = new Image();
@@ -103,13 +117,8 @@ namespace OPC_UA_Grafische_Oberfläche
 
             files.ForEach(file => file.Text = "");
             for (int index = 0; index < i; index++)
-                files[0].Text = $"File {index + 1}: " + FileLst[index];
+                files[index].Text = $"File {index + 1}: " + FileLst[index];
         }
 
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

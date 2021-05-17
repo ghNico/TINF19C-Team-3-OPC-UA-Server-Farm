@@ -25,7 +25,7 @@
                     <Button Style="{StaticResource RoundCorner}" x:Name="AddFile" Content="AddFile" Grid.Column="1" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Click="AddFile_Click" Grid.ColumnSpan="2"/>
                     <TextBox x:Name="InfoTxt" Text="You can add up to 10 AML Files" TextWrapping="Wrap" Grid.Column="2" Margin="73,32,0,356" Background="{x:Null}" Foreground="#BF000000" MinWidth="286" MinHeight="35" MaxWidth="286" MaxHeight="35" Width="286" HorizontalAlignment="Left" VerticalContentAlignment="Stretch" HorizontalScrollBarVisibility="Auto" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}" SelectionTextBrush="{x:Null}"/>
                     <Image x:Name="imgDelete1" Grid.Column="2" HorizontalAlignment="Left" Height="40" Margin="1015,37,0,0" VerticalAlignment="Top" Width="40" Source="/delete_transparent.png"/>
-                    <Button x:Name="btnFile1" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="1015,35,0,0" VerticalAlignment="Top" Width="38" Background="Black" BorderBrush="{x:Null}" Height="44" Visibility="Visible" Click="btnFile1_Click" Opacity="0">
+                    <Button x:Name="BtnResetFile" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="1015,35,0,0" VerticalAlignment="Top" Width="38" Background="Black" BorderBrush="{x:Null}" Height="44" Visibility="Visible" Click="BtnResetFile_Click" Opacity="0">
                         <Button.Foreground>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black"/>
