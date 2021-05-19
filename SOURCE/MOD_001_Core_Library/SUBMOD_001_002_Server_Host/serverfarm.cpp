@@ -146,7 +146,7 @@ void launch_server(UA_UInt16 Port, const file file2) {
 
 //entry point of program which reads the files and creates threads for the servers
 int main(int argc, char** argv){
-    ofstream logfile("Test.txt");
+    ofstream logfile("LogFile.txt");
     vector<file> files;
     for(int i = 1; i < argc; ++i)
     {
