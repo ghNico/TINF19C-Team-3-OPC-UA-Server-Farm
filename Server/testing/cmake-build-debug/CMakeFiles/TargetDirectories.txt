@@ -1,3 +1,0 @@
-C:/Users/Nirom/Documents/GitHub/TINF19C-Team-3-OPC-UA-Server-Farm/Server/testing/cmake-build-debug/CMakeFiles/testing.dir
-C:/Users/Nirom/Documents/GitHub/TINF19C-Team-3-OPC-UA-Server-Farm/Server/testing/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Nirom/Documents/GitHub/TINF19C-Team-3-OPC-UA-Server-Farm/Server/testing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
