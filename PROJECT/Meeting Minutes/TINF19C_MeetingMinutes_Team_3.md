@@ -58,7 +58,7 @@
 
 [Meeting 19.05.2021](#meeting-29)
 
-[Meeting XX.05.2021](#meeting-30)
+[Meeting 20.05.2021](#meeting-30)
 
 
 
@@ -869,21 +869,22 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- 
+- OrdnerStruktur besprochen (EXECUTABLE, PROJECT and SOURCE)
+- Huzzln damit fehlende Features fertig sind, damit baldmöglichst die Doku & Tests abgeschlossen ist
 
-**Status der Arbeit**:
+**Status der Arbeit**: Fertigstellung der Implementierung & erstes Testing
 
 **Probleme**:
 
 **Beschlüsse**: 
 
-**Nächster vereinbarter Termin**:
+**Nächster vereinbarter Termin**: 20.05.2021 - 16 Uhr
 
-**Dauer**:
+**Dauer**: 15 min
 
 
 
-# <a name="meeting-30"></a> Meeting XX.05.2021
+# <a name="meeting-30"></a> Meeting 20.05.2021
 | **Verfasser** | Niklas Huber |
 | --- | --- |
 | **Team** | OPC UA Server Farm |
