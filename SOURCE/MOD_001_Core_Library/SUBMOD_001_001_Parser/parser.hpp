@@ -1,9 +1,10 @@
-﻿#pragma once
+#pragma once
 #include <string>
 #include <vector>
 #include "pugixml.hpp"
 
 using namespace std;
+struct external_interface;
 
 //Start: Header_________________________________________________________
 struct source_object_information
@@ -124,6 +125,7 @@ struct attribute_type_lib
 struct role_requirement
 {
     string ref_base_role_class_path; //in Node
+    vector<external_interface> external_interfaces;
 };
 
 //nicht als AML Block in AML Editior zu sehen, nur in XML Node
@@ -175,6 +177,7 @@ struct system_unit_class
     vector<supported_role_class> supported_role_classes;
     vector<internal_link> internal_links;
 
+    vector<system_unit_class> system_unit_classes;
     vector<attribute> attributes;
     vector<external_interface> external_interfaces;
     vector<internal_element> internal_elements;
