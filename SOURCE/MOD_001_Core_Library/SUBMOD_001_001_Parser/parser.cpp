@@ -2,6 +2,8 @@
 #include <iostream>
 #include "parser.hpp"
 
+//All of those functions are pretty similar, they create a struct and fill it with information that is read from the xml nodes
+
 vector<revision> get_revisions(const pugi::xml_node node)
 {
 	vector<revision> revisions{};
@@ -77,6 +79,7 @@ vector<constraint> get_constraints(const pugi::xml_node node)
 		}
 		else if (type == "OrdinalScaledType")
 		{
+            //the conversion to from string to double might fail, therefore try catch it
 			try
 			{
 				constraint.ordinal_scaled_type.required_max_value = std::stod(type_node.select_node("RequiredMaxValue").node().text().get());
@@ -186,10 +189,16 @@ vector<external_interface> get_external_interfaces(const pugi::xml_node node)
 vector<role_requirement> get_role_requirements(const pugi::xml_node node)
 {
 	vector<role_requirement> role_requirements{};
-	for (const auto role_requirement_path : node.select_nodes("SupportedRoleClass"))
-		role_requirements.push_back(role_requirement{ role_requirement_path.node().attribute("RefBaseRoleClassPath").value() });
+	for (const auto role_requirement_path : node.select_nodes("RoleRequirements"))
+		role_requirements.push_back(
+            role_requirement{ 
+                role_requirement_path.node().attribute("RefBaseRoleClassPath").value(),
+                get_external_interfaces(role_requirement_path.node())
+            }
+        );
 	return role_requirements;
 }
+
 
 vector<internal_element> get_internal_elements(pugi::xml_node node)
 {
@@ -221,6 +230,7 @@ vector<system_unit_class> get_system_unit_classes(const pugi::xml_node node)
 			get_header(system_unit_class_node),
 			get_supported_role_classes(system_unit_class_node),
 			get_internal_links(system_unit_class_node),
+            get_system_unit_classes(system_unit_class_node),
 			get_attributes(system_unit_class_node),
 			get_external_interfaces(system_unit_class_node),
 			get_internal_elements(system_unit_class_node)
@@ -279,7 +289,7 @@ vector<interface_class> get_interface_classes(const pugi::xml_node node)
 	return interface_classes;
 }
 
-
+//main method to parse selected file
 file load_file(const string& path)
 {
 	pugi::xml_document doc;
@@ -304,6 +314,7 @@ file load_file(const string& path)
 		vector<instance_hierarchy> {},
 	};
 
+    //fill all 4 libs and the instance hierarchy
 	for (const auto attribute_type_lib_path : attribute_type_lib_nodes)
 	{
 		const auto attribute_type_lib_node = attribute_type_lib_path.node();
