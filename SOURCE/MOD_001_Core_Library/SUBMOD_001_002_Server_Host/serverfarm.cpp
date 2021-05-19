@@ -15,21 +15,16 @@ UA_NodeId add_variable_to_adressspace(UA_Server *server, const char* descript , 
 void add_externalInterfaces(vector<external_interface> x, UA_NodeId response, UA_Server *server);
 void add_roleRequirements(vector<role_requirement> x, UA_NodeId response, UA_Server *server);
 /* Build Instructions (Linux)
- * - gcc -std=c99 -c open62541.c
- * - g++ server.cpp open62541.o -o server */
+ * - g++ -pthread parser.cpp pugixml.cpp open62541.c serverfarm.cpp -o myServerfarm */
 
 using namespace std;
-
 
 UA_Boolean running = true;
 
 int counter = 0;
 
-
-
 static UA_String
 nothing = {sizeof(" ") - 1, (UA_Byte *)" "};
-
 
 auto idValue = 0;
 
