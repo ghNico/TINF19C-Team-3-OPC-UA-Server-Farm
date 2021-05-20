@@ -1,0 +1,247 @@
+﻿<CAEXFile SchemaVersion="3.0" FileName="10Level_ea1Att.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.10</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="5.3.3.0" LastWritingDateTime="2021-05-07T11:23:54.7371307+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="5.3.3.0" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <InstanceHierarchy Name="InstanceHierarchy">
+    <Version>0</Version>
+    <InternalElement Name="Level0" ID="fa11ba19-c235-4d59-a78b-ffd33c4a2525" RefBaseSystemUnitPath="Main/Level0">
+      <Attribute Name="Attribute" AttributeDataType="xs:string">
+        <Value>asdf</Value>
+      </Attribute>
+      <InternalElement Name="Level1" ID="73d568b6-519d-4f9a-afd2-b010287d164a">
+        <Attribute Name="Attribute" AttributeDataType="xs:string">
+          <Value>asdf</Value>
+        </Attribute>
+        <InternalElement Name="Level2" ID="42d5d11c-0543-4d78-ad3e-411b465846fe">
+          <Attribute Name="Attribute" AttributeDataType="xs:string">
+            <Value>asdf</Value>
+          </Attribute>
+          <InternalElement Name="Level3" ID="3603d41c-807d-4649-9388-aec78dbc6d4d">
+            <Attribute Name="Attribute" AttributeDataType="xs:string">
+              <Value>asdf</Value>
+            </Attribute>
+            <InternalElement Name="Level4" ID="15288bc3-c5bd-4bc2-a853-e38f40040fcd">
+              <Attribute Name="Attribute" AttributeDataType="xs:string">
+                <Value>asdf</Value>
+              </Attribute>
+              <InternalElement Name="Level5" ID="2e14dc30-0ddd-42e6-a882-4c122507bae9">
+                <Attribute Name="Attribute" AttributeDataType="xs:string">
+                  <Value>asdf</Value>
+                </Attribute>
+                <InternalElement Name="Level6" ID="7e83710b-e6aa-489e-9f95-170b14ad081f">
+                  <Attribute Name="Attribute" AttributeDataType="xs:string">
+                    <Value>asd</Value>
+                  </Attribute>
+                  <InternalElement Name="Level7" ID="9ac28a10-8133-4b3f-8d44-5013d5fa022b">
+                    <Attribute Name="Attribute" AttributeDataType="xs:string">
+                      <Value>asdf</Value>
+                    </Attribute>
+                    <InternalElement Name="Level8" ID="f1555df9-6961-4f1a-8ade-f331caab6c64">
+                      <Attribute Name="Attribute" AttributeDataType="xs:string">
+                        <Value>asdf</Value>
+                      </Attribute>
+                      <InternalElement Name="Level9" ID="f1418ad0-e6d5-4124-8a7a-e6b126eda3a0">
+                        <Attribute Name="Attribute" AttributeDataType="xs:string">
+                          <Value>asdf</Value>
+                        </Attribute>
+                        <InternalElement Name="Level10" ID="2130a953-28e8-4c9f-860d-35be24bbb554">
+                          <Attribute Name="Attribute" AttributeDataType="xs:string">
+                            <Value>asdf</Value>
+                          </Attribute>
+                        </InternalElement>
+                      </InternalElement>
+                    </InternalElement>
+                  </InternalElement>
+                </InternalElement>
+              </InternalElement>
+            </InternalElement>
+          </InternalElement>
+        </InternalElement>
+      </InternalElement>
+    </InternalElement>
+  </InstanceHierarchy>
+  <InterfaceClassLib Name="AutomationMLInterfaceClassLib" ChangeMode="state">
+    <Description>Standard Automation Markup Language Interface Class Library - Part 1 Content </Description>
+    <Version>2.10</Version>
+    <Copyright>AutomationML e.V.</Copyright>
+    <InterfaceClass Name="AutomationMLBaseInterface">
+      <InterfaceClass Name="Order" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="Direction" RefAttributeType="AutomationMLBaseAttributeTypeLib/Direction" AttributeDataType="xs:string">
+          <DefaultValue>InOut</DefaultValue>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </InterfaceClass>
+      <InterfaceClass Name="Port" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="Direction" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/Direction">
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Cardinality" RefAttributeType="AutomationMLBaseAttributeTypeLib/Cardinality">
+          <Attribute Name="MinOccur" AttributeDataType="xs:unsignedInt" />
+          <Attribute Name="MaxOccur" AttributeDataType="xs:unsignedInt" />
+        </Attribute>
+        <Attribute Name="Category" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/Category" />
+      </InterfaceClass>
+      <InterfaceClass Name="PPRConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface" />
+      <InterfaceClass Name="ExternalDataConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" RefAttributeType="AutomationMLBaseAttributeTypeLib/refURI" />
+        <InterfaceClass Name="COLLADAInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+          <Attribute Name="refType" AttributeDataType="xs:string" />
+          <Attribute Name="target" AttributeDataType="xs:token" />
+        </InterfaceClass>
+        <InterfaceClass Name="PLCopenXMLInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+        <InterfaceClass Name="ExternalDataReference" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/MIMEType" />
+        </InterfaceClass>
+      </InterfaceClass>
+      <InterfaceClass Name="Communication" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <InterfaceClass Name="SignalInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" />
+      </InterfaceClass>
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <RoleClassLib Name="AutomationMLBaseRoleClassLib">
+    <Description>Automation Markup Language Base Role Class Library - Part 1</Description>
+    <Version>2.10.0</Version>
+    <RoleClass Name="AutomationMLBaseRole" ChangeMode="state">
+      <RoleClass Name="Group" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+        <Attribute Name="AssociatedFacet" RefAttributeType="AutomationMLBaseAttributeTypeLib/AssociatedFacet" AttributeDataType="xs:string" />
+      </RoleClass>
+      <RoleClass Name="Facet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Resource" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Product" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Process" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Structure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+        <RoleClass Name="ProductStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        <RoleClass Name="ProcessStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        <RoleClass Name="ResourceStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+      </RoleClass>
+      <RoleClass Name="ExternalData" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+    </RoleClass>
+  </RoleClassLib>
+  <SystemUnitClassLib Name="Main">
+    <Version>0</Version>
+    <SystemUnitClass Name="Level0" ID="7f12d3f3-4d0c-428d-97a7-c7d14ffb0bfb">
+      <Attribute Name="Attribute" AttributeDataType="xs:string">
+        <Value>asdf</Value>
+      </Attribute>
+      <InternalElement Name="Level1" ID="1072fdb6-8143-44fb-8e24-4ae8d12b1553">
+        <Attribute Name="Attribute" AttributeDataType="xs:string">
+          <Value>asdf</Value>
+        </Attribute>
+        <InternalElement Name="Level2" ID="f7699a2a-550a-494b-a521-3236317f1e58">
+          <Attribute Name="Attribute" AttributeDataType="xs:string">
+            <Value>asdf</Value>
+          </Attribute>
+          <InternalElement Name="Level3" ID="cf1daead-090e-4a1f-ae04-c7e566155e0d">
+            <Attribute Name="Attribute" AttributeDataType="xs:string">
+              <Value>asdf</Value>
+            </Attribute>
+            <InternalElement Name="Level4" ID="99c0abe5-cc0e-4ab9-8d19-f638ea6f2a36">
+              <Attribute Name="Attribute" AttributeDataType="xs:string">
+                <Value>asdf</Value>
+              </Attribute>
+              <InternalElement Name="Level5" ID="b0dd64a9-6f26-4417-8188-89ac7b86fd31">
+                <Attribute Name="Attribute" AttributeDataType="xs:string">
+                  <Value>asdf</Value>
+                </Attribute>
+                <InternalElement Name="Level6" ID="d903c97d-a62a-48f2-aa69-91eb0ae32c77">
+                  <Attribute Name="Attribute" AttributeDataType="xs:string">
+                    <Value>asd</Value>
+                  </Attribute>
+                  <InternalElement Name="Level7" ID="398fa0e0-807e-44d3-bb7d-dd92f1cb0679">
+                    <Attribute Name="Attribute" AttributeDataType="xs:string">
+                      <Value>asdf</Value>
+                    </Attribute>
+                    <InternalElement Name="Level8" ID="187f1153-b817-4985-84da-ed9f933630eb">
+                      <Attribute Name="Attribute" AttributeDataType="xs:string">
+                        <Value>asdf</Value>
+                      </Attribute>
+                      <InternalElement Name="Level9" ID="7aa10692-b42c-4e9c-80b7-d01126ac9646">
+                        <Attribute Name="Attribute" AttributeDataType="xs:string">
+                          <Value>asdf</Value>
+                        </Attribute>
+                        <InternalElement Name="Level10" ID="00de8843-9234-4f4e-9036-5c16f1587bd8">
+                          <Attribute Name="Attribute" AttributeDataType="xs:string">
+                            <Value>asdf</Value>
+                          </Attribute>
+                        </InternalElement>
+                      </InternalElement>
+                    </InternalElement>
+                  </InternalElement>
+                </InternalElement>
+              </InternalElement>
+            </InternalElement>
+          </InternalElement>
+        </InternalElement>
+      </InternalElement>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <AttributeTypeLib Name="AutomationMLBaseAttributeTypeLib" ChangeMode="state">
+    <Description>Standard Automation Markup Language Attribute Type Library</Description>
+    <Version>2.10.0</Version>
+    <Copyright>AutomationML e.V.</Copyright>
+    <AttributeType Name="AssociatedExternalValue">
+      <Attribute Name="refCAEXAttribute" AttributeDataType="xs:string" />
+      <Attribute Name="refURI" AttributeDataType="xs:string" />
+      <Attribute Name="Direction" AttributeDataType="xs:string" />
+    </AttributeType>
+    <AttributeType Name="AssociatedFacet" AttributeDataType="xs:string" />
+    <AttributeType Name="Cardinality">
+      <Attribute Name="MinOccur" AttributeDataType="xs:unsignedInt" />
+      <Attribute Name="MaxOccur" AttributeDataType="xs:unsignedInt" />
+    </AttributeType>
+    <AttributeType Name="Category" AttributeDataType="xs:string" />
+    <AttributeType Name="Direction" AttributeDataType="xs:string">
+      <DefaultValue>InOut</DefaultValue>
+      <Constraint Name="AllowedValues">
+        <NominalScaledType>
+          <RequiredValue>In</RequiredValue>
+          <RequiredValue>Out</RequiredValue>
+          <RequiredValue>InOut</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="DocLang" AttributeDataType="xs:string" />
+    <AttributeType Name="Frame" AttributeDataType="">
+      <Attribute Name="x" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="y" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="z" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="rx" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="ry" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="rz" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="ListType" AttributeDataType="xs:string" />
+    <AttributeType Name="LocalizedAttribute" AttributeDataType="xs:string" />
+    <AttributeType Name="MIMEType" AttributeDataType="xs:string" />
+    <AttributeType Name="OrderedListType" AttributeDataType="xs:string" />
+    <AttributeType Name="refURI" AttributeDataType="xs:anyURI" />
+  </AttributeTypeLib>
+</CAEXFile>

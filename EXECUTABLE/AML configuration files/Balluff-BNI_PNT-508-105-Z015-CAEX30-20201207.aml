@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CAEXFile SchemaVersion="3.0" FileName="Balluff-BNI_PNT-508-105-Z015-CAEX30-20201207.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.1</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="Balluff Engineering Tool" OriginID="1234" OriginVersion="1.57.1-alpha-amlRework" LastWritingDateTime="2020-10-16T07:56:24.5593848+02:00" OriginProjectTitle="BSM_Project_test" OriginVendor="Balluff GmbH" OriginVendorURL="https://balluff.com" OriginProjectID="5678" />
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="5.2.8.0" LastWritingDateTime="2020-10-23T08:07:54.0005512+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="5.2.8.0" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <ExternalReference Path="/libraries.aml" Alias="libraries" />
+  <SystemUnitClassLib Name="ProductLibrary_BALLUFF">
+    <Description>This section contains the product catalogue of BALLUFF.</Description>
+    <Version>0</Version>
+    <Copyright>2019 Balluff GmbH</Copyright>
+    <SystemUnitClass Name="Master" ID="">
+      <Description>This product category contains Fieldbus Devices, i.e. IO-Link-Masters</Description>
+      <!-- MRENTSCH: SemanticSystems besser auf dieser Ebene ?! -->
+      <Attribute Name="SemanticSystems">
+        <RefSemantic CorrespondingAttributePath="ListType" />
+        <Attribute Name="SemanticSystem1" AttributeDataType="xs:string">
+          <Attribute Name="ClassificationSystem" AttributeDataType="xs:string" />
+          <Attribute Name="Version" AttributeDataType="xs:string" />
+          <Attribute Name="RefSemanticPrefix" AttributeDataType="xs:string" />
+        </Attribute>
+      </Attribute>
+      <SystemUnitClass Name="BNI PNT-508-105-Z015" ID="a752c551-5f6e-4664-923f-6d1f1fda9784">
+        <Attribute Name="IdentificationData">
+          <Description>Identification data of the automation component type or instance model.</Description>
+          <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACC011#001" />
+          <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABC269#005" />
+          <Attribute Name="Manufacturer" AttributeDataType="xs:string">
+            <Description>Name of the Manufacturer (person, company or organisation)</Description>
+            <Value>BALLUFF</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE102#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA565#006" />
+          </Attribute>
+          <Attribute Name="ManufacturerURI" AttributeDataType="xs:string">
+            <Description>Address of the product manufacturer on the world wide web (URL) </Description>
+            <Value>www.balluff.com</Value>
+          </Attribute>
+          <Attribute Name="DeviceClass" AttributeDataType="xs:string">
+            <Description>Product family name of the manufacturer, characterization may be based on its usage, operation principle, and its fabricated form</Description>
+            <Value>Master</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE104#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA566#005" />
+          </Attribute>
+          <Attribute Name="Model" AttributeDataType="xs:string">
+            <Description>Product name or model code of the manufacturer</Description>
+            <Value>BNI PNT-508-105-Z015</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE105#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA567#006" />
+          </Attribute>
+          <Attribute Name="ProductCode" AttributeDataType="xs:string">
+            <Description>Unique product identifier given by the manufacturer</Description>
+            <Value>BNI005H</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE103#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA300#005" />
+          </Attribute>
+          <Attribute Name="HardwareRevision" AttributeDataType="xs:string">
+            <Description>Version of the hardware supplied with the component</Description>
+            <Value>7</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA926#005" />
+          </Attribute>
+          <Attribute Name="SoftwareRevision" AttributeDataType="xs:string">
+            <Description>Version of the firmware supplied with the component</Description>
+            <Value>3.5.5</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA302#004" />
+          </Attribute>
+          <Attribute Name="SerialNumber" AttributeDataType="xs:string">
+            <Description>Unique combination of numbers and letters to identify a manufactured component sample</Description>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA951#006" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#ADA029#001" />
+          </Attribute>
+          <Attribute Name="FabricationNumber" AttributeDataType="xs:string">
+            <Description>Alphanumeric character sequence to trace the date, time and circumstances of fabrication</Description>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABB062#005" />
+          </Attribute>
+          <Attribute Name="ProductInstanceURI" AttributeDataType="xs:string">
+            <Description>Unique global identification of the product type or sample (assetID) using an universal resource identifier, such as an online URL to the product data.</Description>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABN591#001" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="GeneralTechnicalData">
+          <Description>Classification data of the component.</Description>
+          <Attribute Name="AmbientTemperature" AttributeDataType="xs:string">
+            <Description>Operating temperature limits of the air surrounding the complete component.</Description>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE440#001" />
+            <Attribute Name="TemperatureMin" AttributeDataType="xs:int" Unit="°C">
+              <Description>Lowest ambient temperature for which the component operates within its specified limits.</Description>
+              <Value>-5</Value>
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH008#002" />
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA621#007" />
+            </Attribute>
+            <Attribute Name="TemperatureMax" AttributeDataType="xs:int" Unit="°C">
+              <Description>Highest ambient temperature for which the component operates within its specified limits.</Description>
+              <Value>70</Value>
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH007#002" />
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA623#007" />
+              <RefSemantic CorrespondingAttributePath="IRDI:" />
+            </Attribute>
+          </Attribute>
+          <Attribute Name="IPCode" AttributeDataType="xs:string">
+            <Description>Degree of protection (IP code) of the component provided by enclosure, numerical classification in accordance with IEC 60529 preceded by the symbol IP.</Description>
+            <Value>IP67</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH011#002" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE248#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA558#006" />
+          </Attribute>
+          <Attribute Name="Material" AttributeDataType="xs:string">
+            <Description>Basic material of the housing of the component.</Description>
+            <Value>Zinc</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE351#006" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE260#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA158#004" />
+          </Attribute>
+          <Attribute Name="Weight" AttributeDataType="xs:float" Unit="g">
+            <Description>Net weight: Value of the mass of the component with all fixed parts without packaging and accessories.</Description>
+            <Value>695</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#ACB032#002" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE808#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA553#006" />
+          </Attribute>
+          <Attribute Name="Height" AttributeDataType="xs:integer" Unit="mm">
+            <Description>Height of the body, vertical distance between the top and bottom of the component when standing in its normal position of use, including connectors and terminals, without accessory and cable.</Description>
+            <Value>38</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE020#002" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE801#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA574#006" />
+          </Attribute>
+          <Attribute Name="Width" AttributeDataType="xs:integer" Unit="mm">
+            <Description>Width or breadth of the body, horizontal distance between the left-hand and right-hand extremes of the component when standing in its normal position of use, including connectors and terminals, without accessory and cable.</Description>
+            <Value>68</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE021#002" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE802#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA573#006" />
+          </Attribute>
+          <Attribute Name="Length" AttributeDataType="xs:integer" Unit="mm">
+            <Description>Length of the body, horizontal distance between the front and back of the component when standing in its normal position of use, including connectors and terminals, without accessory and cable.</Description>
+            <Value>224</Value>
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE019#002" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE803#001" />
+            <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA640#006" />
+          </Attribute>
+        </Attribute>
+        <Attribute Name="CommercialData" AttributeDataType="xs:string">
+          <Attribute Name="PackagingAndTransportation">
+            <Description>Properties characterizing the packing and transportation (shipping) of a product.</Description>
+            <Attribute Name="GTIN" AttributeDataType="xs:string">
+              <Description>Global Trade Item Number (GTIN). International unique and universal item number for products and services used by trade and industry (formerly EAN)</Description>
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE101#001" />
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABA587#005" />
+            </Attribute>
+            <Attribute Name="CustomsTariffNumber" AttributeDataType="xs:integer">
+              <Description>Classification of a product according to trade regulations. Number assigned to each type of product sold internationally.</Description>
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///62683#ACE109#001" />
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABI442#001" />
+            </Attribute>
+            <Attribute Name="CountryOfOrigin" AttributeDataType="xs:string" Unit="code">
+              <Description>Alphabetic 2-character code for the identification of the country in which the good has been produced or manufactured according to criteria laid down for the application of custom tariff or quantitative restrictions, or any measure related to trade. The provided value list for the alphabetic 2-character code is based on ISO 3166-1, which is updated under https://www.iso.org/iso-3166-country-codes.html</Description>
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#ADA034#001" />
+              <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61987#ABJ603#001" />
+            </Attribute>
+          </Attribute>
+          <Attribute Name="ProductDetails" AttributeDataType="xs:string">
+            <Attribute Name="DescriptionShort" AttributeDataType="xs:string">
+              <Value>some short text</Value>
+            </Attribute>
+            <Attribute Name="DescriptionLong" AttributeDataType="xs:string">
+              <Value>some long text</Value>
+            </Attribute>
+            <Attribute Name="InternationalPID" AttributeDataType="xs:string" />
+            <Attribute Name="ManufacturerPID" AttributeDataType="xs:string" />
+            <Attribute Name="SpecialTreatmentClass" AttributeDataType="xs:string">
+              <RefSemantic CorrespondingAttributePath="ListType" />
+            </Attribute>
+            <Attribute Name="Keyword" AttributeDataType="xs:string">
+              <RefSemantic CorrespondingAttributePath="ListType" />
+            </Attribute>
+            <Attribute Name="Remarks" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="ProductOrderDetails">
+            <Attribute Name="OrderUnit" AttributeDataType="xs:string" />
+            <Attribute Name="ContentUnit" AttributeDataType="xs:string" />
+            <Attribute Name="PriceQuantity" AttributeDataType="xs:string" />
+            <Attribute Name="QuantityMin" AttributeDataType="xs:float" />
+            <Attribute Name="QuantityInterval" AttributeDataType="xs:float" />
+            <Attribute Name="QuantityMax" AttributeDataType="xs:string" />
+            <Attribute Name="PackingUnits" AttributeDataType="xs:string" />
+            <Attribute Name="PackingSize" AttributeDataType="xs:string" />
+          </Attribute>
+          <Attribute Name="ProductPriceDetails">
+            <RefSemantic CorrespondingAttributePath="ListType" />
+            <Attribute Name="ValidStartDate" AttributeDataType="xs:date" />
+            <Attribute Name="VaildEndDate" AttributeDataType="xs:date" />
+            <Attribute Name="ProductPrice" AttributeDataType="xs:string">
+              <Attribute Name="PriceAmount" AttributeDataType="xs:string" />
+              <Attribute Name="PriceCurrency" AttributeDataType="xs:string" />
+              <Attribute Name="Tax" AttributeDataType="xs:string" />
+              <Attribute Name="PriceFactor" AttributeDataType="xs:string" />
+              <Attribute Name="LowerBound" AttributeDataType="xs:string" />
+              <Attribute Name="Territory" AttributeDataType="xs:string">
+                <RefSemantic CorrespondingAttributePath="ListType" />
+              </Attribute>
+            </Attribute>
+          </Attribute>
+          <Attribute Name="ManufacturerDetails">
+            <Attribute Name="Name" AttributeDataType="xs:string">
+              <Value>Balluff GmbH</Value>
+            </Attribute>
+            <Attribute Name="Address1" AttributeDataType="xs:string">
+              <Value>Schurwaldstr. 9</Value>
+            </Attribute>
+            <Attribute Name="Address2" AttributeDataType="xs:string" />
+            <Attribute Name="ZipCode" AttributeDataType="xs:string">
+              <Value>73765</Value>
+            </Attribute>
+            <Attribute Name="City" AttributeDataType="xs:string">
+              <Value>Neuhausen</Value>
+            </Attribute>
+            <Attribute Name="Country" AttributeDataType="xs:string">
+              <Value>Germany</Value>
+            </Attribute>
+            <Attribute Name="ContactMail" AttributeDataType="xs:string" />
+            <Attribute Name="ContactPhone" AttributeDataType="xs:string" />
+            <Attribute Name="Website" AttributeDataType="xs:anyURI">
+              <Value>www.balluff.com</Value>
+            </Attribute>
+          </Attribute>
+        </Attribute>
+        <InternalElement Name="Pictures" ID="b137dd05-d44f-4bab-ab10-5786d58849b2">
+          <InternalElement Name="ManufacturerIcon" ID="ee8c5434-2f50-476c-9f66-338c67d3b936">
+            <ExternalInterface Name="ExternalDataConnector" ID="0a78ced6-605f-4891-a84d-969a1cbc374b" RefBaseClassPath="libraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/Balluff-logo.png</Value>
+              </Attribute>
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>application/xml</Value>
+              </Attribute>
+            </ExternalInterface>
+            <SupportedRoleClass RefRoleClassPath="libraries@AutomationMLComponentStandardRCL/ManufacturerIcon" />
+          </InternalElement>
+          <InternalElement Name="ComponentPicture" ID="9b7b2316-e329-4fce-bb24-9b7c1e0c2b10">
+            <ExternalInterface Name="ExternalDataReference" ID="6dabc73b-fccc-4f6c-a6dd-41f97269f0cf" RefBaseClassPath="libraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/Balluff-BNI-PNT-508-105-Z015-pic.png</Value>
+              </Attribute>
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>image/png</Value>
+              </Attribute>
+            </ExternalInterface>
+            <SupportedRoleClass RefRoleClassPath="libraries@AutomationMLComponentStandardRCL/ComponentPicture" />
+          </InternalElement>
+          <InternalElement Name="ComponentIcon" ID="373381e6-85a9-411d-a390-75b226a88494">
+            <ExternalInterface Name="ExternalDataReference" ID="6b6b1564-1ad8-45c4-bc4c-74cb61c4566f" RefBaseClassPath="libraries@AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/GSDML-0378-508A-Balluff_BNI-PNT-508-105-Z015.bmp</Value>
+              </Attribute>
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>image/bmp</Value>
+              </Attribute>
+            </ExternalInterface>
+            <SupportedRoleClass RefRoleClassPath="libraries@AutomationMLComponentStandardRCL/ComponentIcon" />
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        </InternalElement>
+        <InternalElement Name="Documentation" ID="5162de6a-a93a-4e5c-89c5-05149d4a37da">
+          <InternalElement Name="Manual" ID="9293691e-ddaa-4b00-bbb0-76a8f58aab4c">
+            <ExternalInterface Name="ExternalDataReference" ID="0993cb3a-3b51-4ceb-bf2e-f79e08207fe8" RefBaseClassPath="libraries@AutomationMLBPRInterfaceClassLib/ExternalDataReference">
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/IO-Link%20GSD%20handling%20description.pdf</Value>
+              </Attribute>
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>/pdf</Value>
+              </Attribute>
+            </ExternalInterface>
+            <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentBaseRCL/Documentation">
+              <ExternalInterface Name="ExternalDataReference" ID="6fa76af1-3df4-4363-8e1b-95f85104ed66" RefBaseClassPath="libraries@AutomationMLBPRInterfaceClassLib/ExternalDataReference">
+                <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+                <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+              </ExternalInterface>
+            </RoleRequirements>
+          </InternalElement>
+          <InternalElement Name="Datasheet" ID="aa8af50d-3048-4393-9757-049b5a493a4e">
+            <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentBaseRCL/Documentation">
+              <ExternalInterface Name="ExternalDataReference" ID="5e141bf5-89ce-43ce-98b7-b87f70025047" RefBaseClassPath="libraries@AutomationMLBPRInterfaceClassLib/ExternalDataReference">
+                <Attribute Name="refURI" AttributeDataType="xs:anyURI" />
+                <Attribute Name="MIMEType" AttributeDataType="xs:string" />
+              </ExternalInterface>
+            </RoleRequirements>
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentBaseRCL/Model" />
+        </InternalElement>
+        <InternalElement Name="Models" ID="67991661-9e4d-4101-8f6f-bf0f444d92de">
+          <InternalElement Name="ECAD" ID="3f3b1d25-10af-4155-aabc-23e0a1a22b66">
+            <ExternalInterface Name="ePlanMacro" ID="987385af-7bd4-4c6f-928f-37569ef5a66f" RefBaseClassPath="libraries@AutomationMLBPRInterfaceClassLib/ExternalDataReference">
+              <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+                <Value>/BAL.BNI005H.edz</Value>
+              </Attribute>
+              <Attribute Name="MIMEType" AttributeDataType="xs:string">
+                <Value>application/octet-stream</Value>
+              </Attribute>
+            </ExternalInterface>
+            <SupportedRoleClass RefRoleClassPath="libraries@AutomationMLComponentBaseRCL/Model" />
+          </InternalElement>
+          <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        </InternalElement>
+        <InternalElement Name="GSD" ID="4f6396e2-3337-4340-b42b-d54086b1f0c3">
+          <ExternalInterface Name="GSDReference" ID="bdf80105-be8c-4d1e-9ed1-f252ec6a5e5b" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/DeviceDescriptionReference">
+            <Attribute Name="refURI" AttributeDataType="xs:anyURI">
+              <Value>/GSDML-V2.34-Balluff-BNI-PNT-508-105-Z015-20190301.xml</Value>
+            </Attribute>
+            <Attribute Name="MIMEType" AttributeDataType="xs:string">
+              <Value>application/xml</Value>
+            </Attribute>
+            <Attribute Name="Version" AttributeDataType="xs:string">
+              <Value>2.34</Value>
+            </Attribute>
+          </ExternalInterface>
+          <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentBaseRCL/AdditionalDeviceDescription" />
+        </InternalElement>
+        <InternalElement Name="ElectricConnectors" ID="5600d5ee-4c26-42e6-842f-3e8fe996a0d1">
+          <InternalElement Name="VoltageSupply" ID="0e9da2f4-f4f2-475c-a363-2e395b26e52c">
+            <ExternalInterface Name="7/8_5PinFemale" ID="f4eef352-b1d4-4fe5-8416-c0b84bc9eead" RefBaseClassPath="libraries@ConnectorLib_ANSIB93.55M/78_5Pin/78_5PinFemale">
+              <Attribute Name="RatedVoltage" AttributeDataType="xs:float" RefAttributeType="libraries@GenericIndustrialAttributeTypeLib/RatedVoltage" Unit="V">
+                <Description>Nominal value of the rated voltage an electromechanical component is designed for</Description>
+                <DefaultValue>250</DefaultValue>
+                <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH012#002" />
+              </Attribute>
+              <ExternalInterface Name="1" ID="906dc7b0-b7ab-4873-9d7b-7f29d1e63e9f" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/ElectricInterface">
+                <Description>Pin 1</Description>
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                  <DefaultValue>GND</DefaultValue>
+                </Attribute>
+                <Attribute Name="MaxCurrent" AttributeDataType="xs:float" Unit="A" RefAttributeType="libraries@GenericPinAttributeTypeLib/ContactCurrentMax">
+                  <Description>Maximum continuous rms current per contact of a connector, at specified ambient temperature</Description>
+                  <DefaultValue>8</DefaultValue>
+                  <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="2" ID="96feb3dd-21b1-48bf-b031-63fd70fbfaf0" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/ElectricInterface">
+                <Description>Pin 2</Description>
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                  <DefaultValue>GND</DefaultValue>
+                </Attribute>
+                <Attribute Name="MaxCurrent" AttributeDataType="xs:float" Unit="A" RefAttributeType="libraries@GenericPinAttributeTypeLib/ContactCurrentMax">
+                  <Description>Maximum continuous rms current per contact of a connector, at specified ambient temperature</Description>
+                  <DefaultValue>8</DefaultValue>
+                  <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="3" ID="ec10f428-94fc-4f1f-b2ac-b7050a90ee96" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/ElectricInterface">
+                <Description>Pin 3</Description>
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                  <DefaultValue>Functional_GND</DefaultValue>
+                </Attribute>
+                <Attribute Name="MaxCurrent" AttributeDataType="xs:float" Unit="A" RefAttributeType="libraries@GenericPinAttributeTypeLib/ContactCurrentMax">
+                  <Description>Maximum continuous rms current per contact of a connector, at specified ambient temperature</Description>
+                  <DefaultValue>8</DefaultValue>
+                  <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="4" ID="7b6f2463-d7d1-4a9e-9309-1532a2fb3243" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/ElectricInterface">
+                <Description>Pin 4</Description>
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                  <DefaultValue>US</DefaultValue>
+                </Attribute>
+                <Attribute Name="MaxCurrent" AttributeDataType="xs:float" Unit="A" RefAttributeType="libraries@GenericPinAttributeTypeLib/ContactCurrentMax">
+                  <Description>Maximum continuous rms current per contact of a connector, at specified ambient temperature</Description>
+                  <DefaultValue>8</DefaultValue>
+                  <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="5" ID="89609946-4b39-4d52-8cfc-31fd28a6553f" RefBaseClassPath="libraries@AutomationMLComponentBaseICL/ElectricInterface">
+                <Description>Pin 5</Description>
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                  <DefaultValue>US</DefaultValue>
+                </Attribute>
+                <Attribute Name="MaxCurrent" AttributeDataType="xs:float" Unit="A" RefAttributeType="libraries@GenericPinAttributeTypeLib/ContactCurrentMax">
+                  <Description>Maximum continuous rms current per contact of a connector, at specified ambient temperature</Description>
+                  <DefaultValue>8</DefaultValue>
+                  <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAE358#001" />
+                </Attribute>
+              </ExternalInterface>
+            </ExternalInterface>
+            <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentStandardRCL/ElectricConnector" />
+          </InternalElement>
+          <InternalElement Name="M12Ethernet1" ID="e11691d2-b30c-44fd-a6ad-2e07bae5e257">
+            <ExternalInterface Name="M12Ethernet" ID="fe1e8c34-c182-40f3-8852-dcb98573eaca" RefBaseClassPath="libraries@ConnectorLib_IEC61076/IEC61076-2/IEC61076-2-101/M12D/M12D4Pin/M12D4PinFemale">
+              <Attribute Name="IPCode" AttributeDataType="xs:string" RefAttributeType="libraries@IEC61076-2AttributeTypeLib/IPCode" Unit="Code">
+                <Description>Degree of protection (IP code) of an electromechanical component provided by enclosure according to IEC 60529. </Description>
+                <DefaultValue>IP65</DefaultValue>
+                <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH011" />
+                <RefSemantic CorrespondingAttributePath="IRDI:0112/2///61360_4#AAH011#002" />
+                <RefSemantic CorrespondingAttributePath="IEC61076-2-111Ed1.0/6.6.3" />
+              </Attribute>
+              <ExternalInterface Name="1" ID="07edb461-4a57-48c2-a12f-b736360528fd" RefBaseClassPath="libraries@ConnectorLib_IEC61076/IEC61076-2/PinType">
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="2" ID="51832470-1d37-46e8-a040-9c4ae739bdc0" RefBaseClassPath="libraries@ConnectorLib_IEC61076/IEC61076-2/PinType">
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="3" ID="424e179f-2f9f-4072-80a9-a49f8175ebc9" RefBaseClassPath="libraries@ConnectorLib_IEC61076/IEC61076-2/PinType">
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                </Attribute>
+              </ExternalInterface>
+              <ExternalInterface Name="4" ID="d7703a35-2cc6-4f02-8fef-2c09bd7f4246" RefBaseClassPath="libraries@ConnectorLib_IEC61076/IEC61076-2/PinType">
+                <Attribute Name="FunctionType" AttributeDataType="xs:string" RefAttributeType="libraries@GenericPinAttributeTypeLib/FunctionType">
+                  <Description>Function description of the pin or contact.</Description>
+                </Attribute>
+              </ExternalInterface>
+            </ExternalInterface>
+            <RoleRequirements RefBaseRoleClassPath="libraries@AutomationMLComponentStandardRCL/ElectricConnector" />
+            <RoleRequirements RefBaseRoleClassPath="CommunicationProtocolRCL/Ethernet" />
+          </InternalElement>
+        </InternalElement>
+        <SupportedRoleClass RefRoleClassPath="libraries@AutomationMLComponentStandardRCL/AutomationComponent" />
+      </SystemUnitClass>
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+</CAEXFile>

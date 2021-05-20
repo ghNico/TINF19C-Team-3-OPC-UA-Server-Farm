@@ -1,0 +1,302 @@
+﻿<CAEXFile SchemaVersion="3.0" FileName="KaffeeMaschinen.aml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <SuperiorStandardVersion>AutomationML 2.10</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="5.3.3.0" LastWritingDateTime="2021-04-22T16:33:53.7933006+02:00" OriginProjectID="unspecified" OriginProjectTitle="unspecified" OriginRelease="5.3.3.0" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" />
+  <InstanceHierarchy Name="KaffeeMaschinen">
+    <Version>0</Version>
+    <InternalElement Name="KaffeeMaschine0" ID="849ebb00-0a45-4639-bd12-e08e23ceacb3" RefBaseSystemUnitPath="SystemUnitClassLib/KaffeMaschine">
+      <ExternalInterface Name="Stromversorgung" ID="75f137a5-db71-4865-bbea-6390ca5c7c31" RefBaseClassPath="InterfaceClassLib/Stromversorgung" />
+      <InternalElement Name="Wasserbehälter" ID="8f771cd8-61a2-49c3-bdcd-05d0144841aa">
+        <InternalElement Name="Thermometer" ID="1e3ba592-5ac8-4e80-a899-68699a599420">
+          <Attribute Name="WasserTemperatur" AttributeDataType="xs:float" Unit="°C">
+            <DefaultValue>14</DefaultValue>
+            <Value>60</Value>
+          </Attribute>
+        </InternalElement>
+        <InternalElement Name="WasserStandSensor" ID="b7d19dc4-8909-4b69-bf35-4821eecbcba1">
+          <Attribute Name="WasserMenge" AttributeDataType="xs:float" Unit="L">
+            <DefaultValue>0</DefaultValue>
+            <Value>1.23</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="KaffeBohnenbehälter" ID="9cfd39b6-5a6c-4ddf-9d28-02ef6c3c9c03">
+        <InternalElement Name="Waage" ID="f418f236-03cb-447a-a932-105210415cc2">
+          <Attribute Name="BohnenGewicht" AttributeDataType="xs:float" Unit="Kg">
+            <DefaultValue>0</DefaultValue>
+            <Value>0.65</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Wasserpumpe" ID="c823d354-eeb6-42ef-8ff0-649f40e13b2c">
+        <InternalElement Name="Sensor" ID="9ba736cf-121e-4065-b600-66c82c0641a2">
+          <Attribute Name="Flussgeschwindigkeit" AttributeDataType="xs:string" Unit="L / s">
+            <DefaultValue>0</DefaultValue>
+            <Value>0,011</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Bohnenschredder" ID="8bb51645-f088-45e5-a179-f5952a10cd26">
+        <Attribute Name="Aktiv" AttributeDataType="xs:boolean">
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="RoleClassLib/CofeeMachine" />
+    </InternalElement>
+    <InternalElement Name="KaffeeMaschine1" ID="e6f21b88-9595-421d-8fd1-ad036d14267f" RefBaseSystemUnitPath="SystemUnitClassLib/KaffeMaschine">
+      <ExternalInterface Name="Stromversorgung" ID="d90c0717-bef9-4fe9-9752-8d3e30ed0e12" RefBaseClassPath="InterfaceClassLib/Stromversorgung" />
+      <InternalElement Name="Wasserbehälter" ID="cea01aac-c5e6-470f-8a1b-9e79b4e2fc02">
+        <InternalElement Name="Thermometer" ID="2368de75-8647-4446-b600-6ab33fbef0e9">
+          <Attribute Name="WasserTemperatur" AttributeDataType="xs:float" Unit="°C">
+            <DefaultValue>14</DefaultValue>
+            <Value>24</Value>
+          </Attribute>
+        </InternalElement>
+        <InternalElement Name="WasserStandSensor" ID="3f3e70b6-42a0-4713-bb2e-d88091c56954">
+          <Attribute Name="WasserMenge" AttributeDataType="xs:float" Unit="L">
+            <DefaultValue>0</DefaultValue>
+            <Value>0.2</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="KaffeBohnenbehälter" ID="e24ad389-72d1-4172-971c-8d1468ada8a8">
+        <InternalElement Name="Waage" ID="b7c58347-2134-4deb-b3d4-75b25cef5940">
+          <Attribute Name="BohnenGewicht" AttributeDataType="xs:float" Unit="Kg">
+            <DefaultValue>0</DefaultValue>
+            <Value>1.32</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Wasserpumpe" ID="57a0db8e-5007-48fc-a615-2cbaab1d56ea">
+        <InternalElement Name="Sensor" ID="9edcb8cb-a74f-4699-b520-b235eed86d46">
+          <Attribute Name="Flussgeschwindigkeit" AttributeDataType="xs:string" Unit="L / s">
+            <DefaultValue>0</DefaultValue>
+            <Value>0,001</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Bohnenschredder" ID="de232861-4dc9-4336-b8e1-2a765abef1a9">
+        <Attribute Name="Aktiv" AttributeDataType="xs:boolean">
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="RoleClassLib/CofeeMachine" />
+    </InternalElement>
+    <InternalElement Name="KaffeeMaschine2" ID="1b8e1814-5dc6-4c03-a117-0d591386cc7b" RefBaseSystemUnitPath="SystemUnitClassLib/KaffeMaschine">
+      <ExternalInterface Name="Stromversorgung" ID="2297fd10-9808-49ff-9a7f-6117e4da5835" RefBaseClassPath="InterfaceClassLib/Stromversorgung" />
+      <InternalElement Name="Wasserbehälter" ID="d2890f32-7ac4-42ef-bef7-3e2d490720be">
+        <InternalElement Name="Thermometer" ID="f801595f-bdae-4e5b-964e-4a17105384e4">
+          <Attribute Name="WasserTemperatur" AttributeDataType="xs:float" Unit="°C">
+            <DefaultValue>14</DefaultValue>
+            <Value>103</Value>
+          </Attribute>
+        </InternalElement>
+        <InternalElement Name="WasserStandSensor" ID="f5bde334-6357-4033-aa65-2f1291fdfacc">
+          <Attribute Name="WasserMenge" AttributeDataType="xs:float" Unit="L">
+            <DefaultValue>0</DefaultValue>
+            <Value>0.96</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="KaffeBohnenbehälter" ID="53fc6baa-ef18-4b18-b6cb-f96fe553b650">
+        <InternalElement Name="Waage" ID="f6123815-8bcc-4d92-8371-596a2f7f7329">
+          <Attribute Name="BohnenGewicht" AttributeDataType="xs:float" Unit="Kg">
+            <DefaultValue>0</DefaultValue>
+            <Value>0.43</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Wasserpumpe" ID="ed171a5a-0799-459a-9181-1220da3e11e9">
+        <InternalElement Name="Sensor" ID="1a39112d-06ab-4536-9c1a-e5bfbbe2b552">
+          <Attribute Name="Flussgeschwindigkeit" AttributeDataType="xs:string" Unit="L / s">
+            <DefaultValue>0</DefaultValue>
+            <Value>0,142</Value>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Bohnenschredder" ID="a69c4ee2-79d7-44d9-9731-0f2f5ab5c388">
+        <Attribute Name="Aktiv" AttributeDataType="xs:boolean">
+          <DefaultValue>false</DefaultValue>
+          <Value>true</Value>
+        </Attribute>
+      </InternalElement>
+      <RoleRequirements RefBaseRoleClassPath="RoleClassLib/CofeeMachine" />
+    </InternalElement>
+  </InstanceHierarchy>
+  <InterfaceClassLib Name="AutomationMLInterfaceClassLib" ChangeMode="state">
+    <Description>Standard Automation Markup Language Interface Class Library - Part 1 Content </Description>
+    <Version>2.10</Version>
+    <Copyright>AutomationML e.V.</Copyright>
+    <InterfaceClass Name="AutomationMLBaseInterface">
+      <InterfaceClass Name="Order" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="Direction" RefAttributeType="AutomationMLBaseAttributeTypeLib/Direction" AttributeDataType="xs:string">
+          <DefaultValue>InOut</DefaultValue>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </InterfaceClass>
+      <InterfaceClass Name="Port" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="Direction" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/Direction">
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Cardinality" RefAttributeType="AutomationMLBaseAttributeTypeLib/Cardinality">
+          <Attribute Name="MinOccur" AttributeDataType="xs:unsignedInt" />
+          <Attribute Name="MaxOccur" AttributeDataType="xs:unsignedInt" />
+        </Attribute>
+        <Attribute Name="Category" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/Category" />
+      </InterfaceClass>
+      <InterfaceClass Name="PPRConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface" />
+      <InterfaceClass Name="ExternalDataConnector" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <Attribute Name="refURI" AttributeDataType="xs:anyURI" RefAttributeType="AutomationMLBaseAttributeTypeLib/refURI" />
+        <InterfaceClass Name="COLLADAInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+          <Attribute Name="refType" AttributeDataType="xs:string" />
+          <Attribute Name="target" AttributeDataType="xs:token" />
+        </InterfaceClass>
+        <InterfaceClass Name="PLCopenXMLInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector" />
+        <InterfaceClass Name="ExternalDataReference" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/ExternalDataConnector">
+          <Attribute Name="MIMEType" AttributeDataType="xs:string" RefAttributeType="AutomationMLBaseAttributeTypeLib/MIMEType" />
+        </InterfaceClass>
+      </InterfaceClass>
+      <InterfaceClass Name="Communication" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface">
+        <InterfaceClass Name="SignalInterface" RefBaseClassPath="AutomationMLInterfaceClassLib/AutomationMLBaseInterface/Communication" />
+      </InterfaceClass>
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <InterfaceClassLib Name="InterfaceClassLib">
+    <Version>0</Version>
+    <InterfaceClass Name="Stromversorgung" />
+  </InterfaceClassLib>
+  <RoleClassLib Name="AutomationMLBaseRoleClassLib">
+    <Description>Automation Markup Language Base Role Class Library - Part 1</Description>
+    <Version>2.10.0</Version>
+    <RoleClass Name="AutomationMLBaseRole" ChangeMode="state">
+      <RoleClass Name="Group" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+        <Attribute Name="AssociatedFacet" RefAttributeType="AutomationMLBaseAttributeTypeLib/AssociatedFacet" AttributeDataType="xs:string" />
+      </RoleClass>
+      <RoleClass Name="Facet" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Resource" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Product" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Process" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+      <RoleClass Name="Structure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole">
+        <RoleClass Name="ProductStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        <RoleClass Name="ProcessStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+        <RoleClass Name="ResourceStructure" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Structure" />
+      </RoleClass>
+      <RoleClass Name="ExternalData" RefBaseClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole" />
+    </RoleClass>
+  </RoleClassLib>
+  <RoleClassLib Name="RoleClassLib">
+    <Version>0</Version>
+    <RoleClass Name="CofeeMachine" />
+  </RoleClassLib>
+  <SystemUnitClassLib Name="SystemUnitClassLib">
+    <Version>0</Version>
+    <SystemUnitClass Name="KaffeMaschine" ID="ab90bf48-46d9-45f9-9b7d-c493cdd2fd9c">
+      <ExternalInterface Name="Stromversorgung" ID="5b225b28-13e0-4e84-a113-5576056737e7" RefBaseClassPath="InterfaceClassLib/Stromversorgung" />
+      <InternalElement Name="Wasserbehälter" ID="1b669d50-b1b2-4ea7-ad9e-aa85b2570c7d">
+        <InternalElement Name="Thermometer" ID="d32b719d-cbe0-4fdf-a410-3566903a6dc9">
+          <Attribute Name="WasserTemperatur" AttributeDataType="xs:float" Unit="°C">
+            <DefaultValue>14</DefaultValue>
+          </Attribute>
+        </InternalElement>
+        <InternalElement Name="WasserStandSensor" ID="404c2d46-72c5-430b-92b9-a9f4405d223f">
+          <Attribute Name="WasserMenge" AttributeDataType="xs:float" Unit="L">
+            <DefaultValue>0</DefaultValue>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="KaffeBohnenbehälter" ID="e73f5e9a-e9bc-44f8-b14b-9859f159da6f">
+        <InternalElement Name="Waage" ID="1d8fcb7a-aa00-48ff-be89-8ae7f74ac779">
+          <Attribute Name="BohnenGewicht" AttributeDataType="xs:float" Unit="Kg">
+            <DefaultValue>0</DefaultValue>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Wasserpumpe" ID="59d449b5-8a86-49e1-b04e-19cb3a245be4">
+        <InternalElement Name="Sensor" ID="2d3011b7-6683-4674-8d61-6d53d796b764">
+          <Attribute Name="Flussgeschwindigkeit" AttributeDataType="xs:string" Unit="L / s">
+            <DefaultValue>0</DefaultValue>
+          </Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Bohnenschredder" ID="1611d55a-4974-4287-8af5-860e45267b2d">
+        <Attribute Name="Aktiv" AttributeDataType="xs:boolean">
+          <DefaultValue>false</DefaultValue>
+          <Value>false</Value>
+        </Attribute>
+      </InternalElement>
+      <SupportedRoleClass RefRoleClassPath="" />
+      <SupportedRoleClass RefRoleClassPath="RoleClassLib/CofeeMachine" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <AttributeTypeLib Name="AutomationMLBaseAttributeTypeLib" ChangeMode="state">
+    <Description>Standard Automation Markup Language Attribute Type Library</Description>
+    <Version>2.10.0</Version>
+    <Copyright>AutomationML e.V.</Copyright>
+    <AttributeType Name="AssociatedExternalValue">
+      <Attribute Name="refCAEXAttribute" AttributeDataType="xs:string" />
+      <Attribute Name="refURI" AttributeDataType="xs:string" />
+      <Attribute Name="Direction" AttributeDataType="xs:string" />
+    </AttributeType>
+    <AttributeType Name="AssociatedFacet" AttributeDataType="xs:string" />
+    <AttributeType Name="Cardinality">
+      <Attribute Name="MinOccur" AttributeDataType="xs:unsignedInt" />
+      <Attribute Name="MaxOccur" AttributeDataType="xs:unsignedInt" />
+    </AttributeType>
+    <AttributeType Name="Category" AttributeDataType="xs:string" />
+    <AttributeType Name="Direction" AttributeDataType="xs:string">
+      <DefaultValue>InOut</DefaultValue>
+      <Constraint Name="AllowedValues">
+        <NominalScaledType>
+          <RequiredValue>In</RequiredValue>
+          <RequiredValue>Out</RequiredValue>
+          <RequiredValue>InOut</RequiredValue>
+        </NominalScaledType>
+      </Constraint>
+    </AttributeType>
+    <AttributeType Name="DocLang" AttributeDataType="xs:string" />
+    <AttributeType Name="Frame" AttributeDataType="">
+      <Attribute Name="x" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="y" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="z" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="rx" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="ry" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+      <Attribute Name="rz" AttributeDataType="xs:double">
+        <DefaultValue>0</DefaultValue>
+        <Value>0</Value>
+      </Attribute>
+    </AttributeType>
+    <AttributeType Name="ListType" AttributeDataType="xs:string" />
+    <AttributeType Name="LocalizedAttribute" AttributeDataType="xs:string" />
+    <AttributeType Name="MIMEType" AttributeDataType="xs:string" />
+    <AttributeType Name="OrderedListType" AttributeDataType="xs:string" />
+    <AttributeType Name="refURI" AttributeDataType="xs:anyURI" />
+  </AttributeTypeLib>
+</CAEXFile>
