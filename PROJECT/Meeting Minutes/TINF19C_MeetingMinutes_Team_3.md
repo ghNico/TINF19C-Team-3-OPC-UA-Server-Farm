@@ -891,16 +891,18 @@
 | **Teilnehmer** | Niclas Hörber, Niklas Huber, Nico Fischer, Phillip Förster, Daniel Zichler |
 
 **Themen:** 
-- 
+- Review der Tests
+- Fertigstellung der Präsentation
+- Organisatorisches zur Präsentation besprochen
 
-**Status der Arbeit**:
+**Status der Arbeit**: Vorbereitung auf Präsentation
 
 **Probleme**:
 
 **Beschlüsse**: 
 
-**Nächster vereinbarter Termin**:
+**Nächster vereinbarter Termin**: keine
 
-**Dauer**:
+**Dauer**: 1,5 Std
 
 
